@@ -64,6 +64,17 @@ class StationSheet extends StatelessWidget {
           if (s.operational == true)
             _statusBanner(theme, Colors.green.shade700, Icons.check_circle,
                 'Đang hoạt động (theo OpenChargeMap)'),
+          if (s.price != null)
+            Padding(
+              padding: const EdgeInsets.only(top: 10),
+              child: Row(children: [
+                Icon(Icons.sell, size: 20, color: theme.colorScheme.primary),
+                const SizedBox(width: 6),
+                Text('Giá: ${s.price}',
+                    style: theme.textTheme.titleMedium
+                        ?.copyWith(color: theme.colorScheme.primary, fontWeight: FontWeight.w600)),
+              ]),
+            ),
           const SizedBox(height: 12),
           Wrap(spacing: 8, runSpacing: 8, children: chips),
           if (s.hours != null || s.payment != null) const SizedBox(height: 12),

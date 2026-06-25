@@ -15,6 +15,7 @@ const _carJson = {
   'power_kw': '180kW',
   'connector': 'CCS2',
   'vehicle_types': ['Xe hơi điện'],
+  'price': '9.9k đ/kWh',
   'last_updated': '2026-04-17',
   'operational': true,
 };
@@ -38,6 +39,7 @@ void main() {
     expect(car.brand, 'EV One');
     expect(car.lastUpdated, '2026-04-17');
     expect(car.operational, isTrue);
+    expect(car.price, '9.9k đ/kWh');
 
     final moto = Station.fromJson(Map<String, dynamic>.from(_motoJson));
     expect(moto.isMotorbike, isTrue);

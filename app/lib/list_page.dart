@@ -23,7 +23,7 @@ class ListPage extends StatelessWidget {
               color: s.isDealer ? Colors.orange.shade800 : Colors.green.shade700),
           title: Text(s.name, maxLines: 1, overflow: TextOverflow.ellipsis),
           subtitle: Text(
-            [s.province, s.brand, s.powerKw].where((e) => e != null && e.isNotEmpty).join(' • '),
+            [s.province, s.brand, s.powerKw, s.price].where((e) => e != null && e.isNotEmpty).join(' • '),
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
           ),

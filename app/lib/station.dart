@@ -15,6 +15,7 @@ class Station {
   final String? connector;
   final List<String> vehicleTypes;
   final String? payment;
+  final String? price; // e.g. "7k đồng/kWh" (best-effort from sacdien)
   final String? url;
   final bool approx; // geocoded (dealer) -> position is approximate
   final String? lastUpdated; // YYYY-MM-DD the listing was last edited/verified
@@ -34,6 +35,7 @@ class Station {
     this.connector,
     this.vehicleTypes = const [],
     this.payment,
+    this.price,
     this.url,
     this.approx = false,
     this.lastUpdated,
@@ -65,6 +67,7 @@ class Station {
       connector: j['connector']?.toString(),
       vehicleTypes: (j['vehicle_types'] as List?)?.map((e) => e.toString()).toList() ?? const [],
       payment: j['payment']?.toString(),
+      price: j['price']?.toString(),
       url: j['url']?.toString(),
       approx: j['approx'] == true,
       lastUpdated: j['last_updated']?.toString(),

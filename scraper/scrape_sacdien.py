@@ -21,6 +21,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import gzip
+import html
 import json
 import os
 import re
@@ -66,6 +67,18 @@ LD_RE = re.compile(
     r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
     re.I | re.S,
 )
+
+# Price isn't in the JSON-LD — sacdien puts it in a body heading like
+# "• Đơn giá: 7k đồng /kWh" (or "Đơn giá: Miễn phí"). Best-effort, often absent.
+PRICE_RE = re.compile(r"Đơn giá\s*:?\s*([^<\n]{1,50})", re.I)
+
+
+def extract_price(page: str) -> str | None:
+    m = PRICE_RE.search(page)
+    if not m:
+        return None
+    v = html.unescape(re.sub(r"\s+", " ", m.group(1))).strip(" :·•–-—")
+    return v.replace(" /", "/") or None
 
 # A top-level VN province/city looks like "TP. Đà Nẵng" / "Thành phố X" / "Tỉnh Y".
 # sacdien's addressRegion is unreliable (often a district), so we hunt this shape.
@@ -121,7 +134,7 @@ def brand_of(slug_and_name: str) -> str | None:
 def _clean(v: str | None) -> str | None:
     if not v:
         return None
-    v = re.sub(r"<[^>]+>", " ", v)                 # strip stray html
+    v = html.unescape(re.sub(r"<[^>]+>", " ", v))  # strip stray html + decode entities
     v = re.sub(r"\s+", " ", v).strip(" -–—\t")
     # values like "kW -" / "kW" carry no real info
     return v or None if v.lower() not in {"kw", "kw -", "-"} else None
@@ -227,6 +240,7 @@ def parse_station(url: str, html: str) -> dict | None:
         "connector": connector,
         "vehicle_types": vehicle_types,
         "payment": _clean(node.get("paymentAccepted")),
+        "price": extract_price(html),
         "last_updated": last_updated,
         "url": url,
     }
@@ -301,7 +315,8 @@ SAMPLE = '''<script type="application/ld+json" class="rank-math-schema-pro">
 {"@type":"LocationFeatureSpecification","name":"For e-Vehicle Type","value":"Ô tô điện"}],
 "additionalProperty":[{"@type":"PropertyValue","name":"New Province/City","value":"Thanh Hóa"}]},
 {"@type":"WebPage","dateModified":"2026-05-01T10:00:00+07:00"},
-{"@type":"Organization","name":"SacDien.NET"}]}</script>'''
+{"@type":"Organization","name":"SacDien.NET"}]}</script>
+<h2 class="elementor-heading-title">• Đơn giá: 7k đồng /kWh</h2>'''
 
 
 def self_check() -> None:
@@ -313,6 +328,8 @@ def self_check() -> None:
     assert s["connector"] == "CCS2" and s["power_kw"] == "60 kW", s
     assert s["vehicle_types"] == ["Ô tô điện"], s
     assert s["province"] == "Thanh Hóa" and "Thanh Hóa" in s["address"], s
+    assert s["price"] == "7k đồng/kWh", s["price"]
+    assert _clean("Lynk &amp; Co") == "Lynk & Co", "html entities must decode"
     assert s["last_updated"] == "2026-05-01", s["last_updated"]
     assert s["id"] == "sacdien:tram-sac-ev-power-omoda-jaecoo-thanh-hoa", s["id"]
     # brand disambiguation: generic "charge" must lose to specific brands
