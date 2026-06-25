@@ -26,6 +26,19 @@ class MapPage extends StatefulWidget {
 class _MapPageState extends State<MapPage> {
   final _controller = MapController();
 
+  @override
+  void initState() {
+    super.initState();
+    // Auto-locate on startup so the nearest stations show without tapping —
+    // after the first frame (map controller must be attached before move()).
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (widget.store.userLocation != null) return;
+      final pos = await widget.store.locate(); // prompts permission; null if denied
+      if (pos != null && mounted) _controller.move(pos, 13);
+      // denied/unavailable -> stay on the Vietnam overview; the FAB lets them retry
+    });
+  }
+
   Marker _marker(Station s) {
     final color = s.isDealer ? Colors.orange.shade800 : Colors.green.shade700;
     return Marker(
