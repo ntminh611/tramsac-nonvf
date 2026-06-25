@@ -1,0 +1,38 @@
+name: Refresh station data
+
+# Re-scrape sacdien.net daily, merge the (static, geocoded) dealer layer, and
+# commit the result. The Flutter app fetches data/stations.json over HTTP at
+# runtime (see kRemoteUrl in app/lib/data_source.dart), so a commit here ships
+# fresh data to every installed app with no app update needed.
+on:
+  schedule:
+    - cron: '0 19 * * *' # 02:00 Asia/Ho_Chi_Minh, daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      OCM_API_KEY: ${{ secrets.OCM_API_KEY }} # optional; leave unset to skip OCM
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12' # scraper is stdlib-only, no pip install needed
+      - name: Pull OpenChargeMap (optional — set OCM_API_KEY repo secret to enable)
+        if: env.OCM_API_KEY != ''
+        run: python scraper/scrape_ocm.py --out data/ocm.json
+      - name: Scrape sacdien.net + merge dealers (+ OCM if present)
+        run: python scraper/scrape_sacdien.py --workers 12 --merge data/dealers.json --merge data/ocm.json --out data/stations.json
+      - name: Sync bundled offline snapshot
+        run: cp data/stations.json app/assets/stations.json
+      - name: Commit if changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/stations.json app/assets/stations.json
+          git diff --cached --quiet || git commit -m "data: refresh stations ($(date -u +%F))"
+          git push

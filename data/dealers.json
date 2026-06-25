@@ -1,0 +1,445 @@
+{
+ "count": 22,
+ "stations": [
+  {
+   "id": "dealer:audi-audi-ha-noi",
+   "source": "Đại lý Audi",
+   "name": "Audi Hà Nội",
+   "brand": "Audi",
+   "lat": 21.034603,
+   "lng": 105.779411,
+   "address": "8 Phạm Hùng, Phường Mễ Trì (Yên Hòa), Quận Nam Từ Liêm",
+   "province": "Hanoi",
+   "phone": "1800 888 861 / 0934 686 195",
+   "hours": null,
+   "power_kw": "180kW",
+   "connector": "CCS2, Type 2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://thegioiphuongtien.vn/tram-sac-xe-dien/ha-noi-tram-sac-ev-one-audi-ha-noi.html",
+   "approx": true
+  },
+  {
+   "id": "dealer:audi-audi-ho-chi-minh-quan-1-audi-charging-lounge",
+   "source": "Đại lý Audi",
+   "name": "Audi Hồ Chí Minh (Quận 1) / Audi Charging Lounge",
+   "brand": "Audi",
+   "lat": 10.784061,
+   "lng": 106.70441,
+   "address": "6B Tôn Đức Thắng, Phường Sài Gòn (Bến Nghé), Quận 1",
+   "province": "Ho Chi Minh City",
+   "phone": "1800 888 861",
+   "hours": null,
+   "power_kw": "180kW",
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://ev-one.vn/tin-tuc/he-thong-tram-sac-cong-cong-ev-one",
+   "approx": true
+  },
+  {
+   "id": "dealer:audi-audi-city-phu-my-hung-quan-7",
+   "source": "Đại lý Audi",
+   "name": "Audi City Phú Mỹ Hưng (Quận 7)",
+   "brand": "Audi",
+   "lat": 10.695838,
+   "lng": 106.615346,
+   "address": "Tòa nhà Lavida Plus, 1183 Nguyễn Văn Linh, Phường Tân Phong, Quận 7",
+   "province": "Ho Chi Minh City",
+   "phone": "0766 669 986",
+   "hours": null,
+   "power_kw": "160kW",
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://ev-one.vn/xe-byd-sac-tai-tram-sac-cong-cong-ev-one-audi-city-phu-my-hung/",
+   "approx": true
+  },
+  {
+   "id": "dealer:audi-audi-da-nang",
+   "source": "Đại lý Audi",
+   "name": "Audi Đà Nẵng",
+   "brand": "Audi",
+   "lat": 15.580249,
+   "lng": 108.513653,
+   "address": "86C Duy Tân, Phường Hòa Cường (Hòa Thuận), Quận Hải Châu",
+   "province": "Da Nang",
+   "phone": "1800 888 861",
+   "hours": null,
+   "power_kw": "180kW",
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://www.plugshare.com/location/706251",
+   "approx": true
+  },
+  {
+   "id": "dealer:ford-ben-thanh-ford-che-lan-vien",
+   "source": "Đại lý Ford",
+   "name": "Bến Thành Ford (Chế Lan Viên)",
+   "brand": "Ford",
+   "lat": 10.812316,
+   "lng": 106.63074,
+   "address": "39 Chế Lan Viên, Phường Tây Thạnh, TP. Hồ Chí Minh",
+   "province": "Ho Chi Minh City",
+   "phone": "1900 23 23 46",
+   "hours": null,
+   "power_kw": "120kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://benthanhford.com.vn/ben-thanh-ford-trien-khai-tram-sac-nhanh-120-kw-san-sang-don-mustang-mach-e",
+   "approx": true
+  },
+  {
+   "id": "dealer:ford-city-ford",
+   "source": "Đại lý Ford",
+   "name": "City Ford",
+   "brand": "Ford",
+   "lat": 10.832636,
+   "lng": 106.714732,
+   "address": "218 Quốc Lộ 13, Phường Hiệp Bình, TP. Hồ Chí Minh",
+   "province": "Ho Chi Minh City",
+   "phone": "1800 58 88 88",
+   "hours": null,
+   "power_kw": "60kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://oto360.net/dai-ly-ford",
+   "approx": true
+  },
+  {
+   "id": "dealer:ford-sai-gon-ford-cao-thang",
+   "source": "Đại lý Ford",
+   "name": "Sài Gòn Ford (Cao Thắng)",
+   "brand": "Ford",
+   "lat": 10.770188,
+   "lng": 106.681969,
+   "address": "61A Cao Thắng, Phường Bàn Cờ, TP. Hồ Chí Minh",
+   "province": "Ho Chi Minh City",
+   "phone": "1800 8353",
+   "hours": null,
+   "power_kw": "60kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://saigonford.com.vn/",
+   "approx": true
+  },
+  {
+   "id": "dealer:ford-sai-gon-ford-nam-sai-gon-ford-nam-sai-gon",
+   "source": "Đại lý Ford",
+   "name": "Sài Gòn Ford - Nam Sài Gòn (Ford Nam Sài Gòn)",
+   "brand": "Ford",
+   "lat": 10.748727,
+   "lng": 106.684903,
+   "address": "161F Dạ Nam, Phường Chánh Hưng (Quận 8), TP. Hồ Chí Minh",
+   "province": "Ho Chi Minh City",
+   "phone": "1800 58 88 88",
+   "hours": null,
+   "power_kw": null,
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://namsaigonford.com.vn/ford-mustang-mach-e/",
+   "approx": true
+  },
+  {
+   "id": "dealer:ford-ford-hue-phuoc-thanh-hue",
+   "source": "Đại lý Ford",
+   "name": "Ford Huế (Phước Thành Huế)",
+   "brand": "Ford",
+   "lat": 16.445969,
+   "lng": 107.612122,
+   "address": "595 Nguyễn Tất Thành, Phường Thany Thủy, TP. Huế",
+   "province": "Hue",
+   "phone": "1800 58 88 88",
+   "hours": null,
+   "power_kw": null,
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://ford-hue.com.vn/he-thong-tram-sac-dien-xe-ford-tren-viet-nam/",
+   "approx": true
+  },
+  {
+   "id": "dealer:geely-geely-phu-my-hung",
+   "source": "Đại lý Geely",
+   "name": "Geely Phú Mỹ Hưng",
+   "brand": "Geely",
+   "lat": 10.738346,
+   "lng": 106.716985,
+   "address": "54 Nguyễn Thị Thập, Phường Bình Thuận (Tân Thuận), Quận 7",
+   "province": "Ho Chi Minh City",
+   "phone": "0908 685 454",
+   "hours": null,
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "approx": true
+  },
+  {
+   "id": "dealer:geely-geely-da-nang",
+   "source": "Đại lý Geely",
+   "name": "Geely Đà Nẵng",
+   "brand": "Geely",
+   "lat": 15.992189,
+   "lng": 108.207527,
+   "address": "286 Phạm Hùng, Hòa Phước, Hòa Vang",
+   "province": "Da Nang",
+   "phone": "0787 086 286",
+   "hours": null,
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "approx": true
+  },
+  {
+   "id": "dealer:geely-geely-ha-long",
+   "source": "Đại lý Geely",
+   "name": "Geely Hạ Long",
+   "brand": "Geely",
+   "lat": 20.948886,
+   "lng": 107.103507,
+   "address": "Ô số 02 lô B, Khu đô thị mới phần mở rộng, đầu đường Tuần Châu, Phường Hà Khẩu, TP. Hạ Long",
+   "province": "Ha Long",
+   "phone": "0911 016 568",
+   "hours": null,
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "approx": true
+  },
+  {
+   "id": "dealer:byd-byd-oway-sai-gon",
+   "source": "Đại lý BYD",
+   "name": "BYD Oway Sài Gòn",
+   "brand": "BYD",
+   "lat": 10.774472,
+   "lng": 106.668271,
+   "address": "816 Sư Vạn Hạnh, Phường 12 (Hòa Hưng), Quận 10",
+   "province": "Ho Chi Minh City",
+   "phone": "0975 047 068",
+   "hours": null,
+   "power_kw": "120kW",
+   "connector": "CCS2, Type 2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://bydoway.vn/tram-sac-byd-tphcm/",
+   "approx": true
+  },
+  {
+   "id": "dealer:byd-byd-gia-dinh",
+   "source": "Đại lý BYD",
+   "name": "BYD Gia Định",
+   "brand": "BYD",
+   "lat": 10.861265,
+   "lng": 106.664208,
+   "address": "144/1 Quốc Lộ 1A (Đỗ Mười), Phường Thới An, Quận 12",
+   "province": "Ho Chi Minh City",
+   "phone": "0932 700 512",
+   "hours": null,
+   "power_kw": "150kW",
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://bydtiengiang.net/byd-ho-chi-minh/",
+   "approx": true
+  },
+  {
+   "id": "dealer:byd-byd-harmony-sai-gon",
+   "source": "Đại lý BYD",
+   "name": "BYD Harmony Sài Gòn",
+   "brand": "BYD",
+   "lat": 10.685612,
+   "lng": 106.744397,
+   "address": "619 Huỳnh Tấn Phát, Tân Thuận, Quận 7",
+   "province": "Ho Chi Minh City",
+   "phone": "0907 666 863",
+   "hours": null,
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://www.byd.com/vn/store",
+   "approx": true
+  },
+  {
+   "id": "dealer:byd-byd-hta-tay-ho",
+   "source": "Đại lý BYD",
+   "name": "BYD HTA Tây Hồ",
+   "brand": "BYD",
+   "lat": 21.074012,
+   "lng": 105.815116,
+   "address": "685A Lạc Long Quân, Phú Thượng, Quận Tây Hồ",
+   "province": "Hanoi",
+   "phone": null,
+   "hours": null,
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://www.byd.com/vn/store",
+   "approx": true
+  },
+  {
+   "id": "dealer:volvo-volvo-ha-noi-volvo-car-ha-noi",
+   "source": "Đại lý Volvo",
+   "name": "Volvo Hà Nội (Volvo Car Hà Nội)",
+   "brand": "Volvo",
+   "lat": 21.054674,
+   "lng": 105.890591,
+   "address": "Số 7-9 Nguyễn Văn Linh, Tổ 17, Phường Việt Hưng (Long Biên), Hà Nội",
+   "province": "Hanoi",
+   "phone": "085 832 6666 / 0336 011487 (Rabbit EVC station hotline)",
+   "hours": null,
+   "power_kw": "120kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://www.plugshare.com/location/706654",
+   "approx": true
+  },
+  {
+   "id": "dealer:volvo-volvo-car-da-nang",
+   "source": "Đại lý Volvo",
+   "name": "Volvo Car Đà Nẵng",
+   "brand": "Volvo",
+   "lat": 16.019188,
+   "lng": 108.211557,
+   "address": "02 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng",
+   "province": "Da Nang",
+   "phone": "0949 681 431",
+   "hours": null,
+   "power_kw": "120kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://volvodanang.vn/tram-sac-dc-120kw-tai-volvo-car-da-nang-sac-nhanh-tien-loi-ben-vung/",
+   "approx": true
+  },
+  {
+   "id": "dealer:volvo-volvo-sai-gon-volvo-nam-sai-gon-quan-7",
+   "source": "Đại lý Volvo",
+   "name": "Volvo Sài Gòn / Volvo Nam Sài Gòn (Quận 7)",
+   "brand": "Volvo",
+   "lat": 10.730115,
+   "lng": 106.704164,
+   "address": "340 Nguyễn Văn Linh, Phường Tân Phong, Quận 7, TP. Hồ Chí Minh",
+   "province": "Ho Chi Minh City",
+   "phone": null,
+   "hours": null,
+   "power_kw": "120kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://volvocar-hanoi.vn/tram-sac-xe-volvo/",
+   "approx": true
+  },
+  {
+   "id": "dealer:wuling-wuling-bac-tu-liem-hanoi",
+   "source": "Đại lý Wuling",
+   "name": "Wuling Bắc Từ Liêm (Hanoi)",
+   "brand": "Wuling",
+   "lat": 21.041561,
+   "lng": 105.761432,
+   "address": "Số 26 Cầu Diễn, Phường Phúc Diễn (now Phú Diễn), Quận Bắc Từ Liêm",
+   "province": "Hanoi",
+   "phone": "0333263826",
+   "hours": null,
+   "power_kw": "60kW",
+   "connector": "CCS2",
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://sacdien.net/tram/tram-sac-fascha-showroom-wuling-bac-tu-liem-ha-noi/",
+   "approx": true
+  },
+  {
+   "id": "dealer:wuling-wuling-hung-yen",
+   "source": "Đại lý Wuling",
+   "name": "Wuling Hưng Yên",
+   "brand": "Wuling",
+   "lat": 20.914655,
+   "lng": 106.053713,
+   "address": "Số 58 Nguyễn Văn Linh, Phường An Tảo (now Phố Hiến), TP. Hưng Yên",
+   "province": "Hưng Yên",
+   "phone": "0975095888 (station); dealer 0862486689",
+   "hours": null,
+   "power_kw": "40kW",
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://sacdien.net/tram/tram-sac-evpay-showroom-wuling-hung-yen/",
+   "approx": true
+  },
+  {
+   "id": "dealer:wuling-wuling-thanh-hoa",
+   "source": "Đại lý Wuling",
+   "name": "Wuling Thanh Hóa",
+   "brand": "Wuling",
+   "lat": 19.740564,
+   "lng": 105.899203,
+   "address": "280 Bà Triệu, Phường Trường Thi (now Hạc Thành), TP. Thanh Hóa",
+   "province": "Thanh Hóa",
+   "phone": "0912015656",
+   "hours": null,
+   "power_kw": "60kW",
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://sacdien.net/tram/tram-sac-xe-dien-showroom-wuling-thanh-hoa/",
+   "approx": true
+  }
+ ]
+}

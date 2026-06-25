@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Flutter / Dart
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/ios/Pods/
+app/ios/.symlinks/
+app/android/.gradle/
+app/android/local.properties
+**/.DS_Store
+
+# data/stations.json and data/dealers.json ARE committed on purpose (served to the app)

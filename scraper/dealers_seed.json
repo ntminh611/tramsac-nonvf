@@ -1,0 +1,291 @@
+{
+ "note": "Curated dealer showrooms with PUBLIC EV chargers. Coords geocoded by scrape_dealers.py.",
+ "dealers": [
+  {
+   "brand": "Audi",
+   "name": "Audi Hà Nội",
+   "address": "8 Phạm Hùng, Phường Mễ Trì (Yên Hòa), Quận Nam Từ Liêm",
+   "city": "Hà Nội",
+   "phone": "1800 888 861 / 0934 686 195",
+   "charger_notes": "Public EV ONE charging station on-site: 1x DC fast charger 180 kW (CCS2) plus AC Type 2 (Mennekes). Operates 24/7, open to any EV brand (Audi, BMW, Mercedes, Porsche, etc.). Pricing ~7,900đ/kWh AC, ~9,900đ/kWh DC. Confirmed public.",
+   "source_url": "https://thegioiphuongtien.vn/tram-sac-xe-dien/ha-noi-tram-sac-ev-one-audi-ha-noi.html",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Audi",
+   "name": "Audi Hồ Chí Minh (Quận 1) / Audi Charging Lounge",
+   "address": "6B Tôn Đức Thắng, Phường Sài Gòn (Bến Nghé), Quận 1",
+   "city": "TP. Hồ Chí Minh",
+   "phone": "1800 888 861",
+   "charger_notes": "EV ONE public charging station on-site: DC 180 kW (ABB, can charge 2 cars at once) plus 2x AC 11 kW. Co-located with the Audi Charging Lounge (550 m2, opened Apr 2023, daily 10:00-18:00). EV ONE listing marks it as part of the public network; the original Charging Lounge was Audi-customers-only, but the EV ONE network now lists this site as public.",
+   "source_url": "https://ev-one.vn/tin-tuc/he-thong-tram-sac-cong-cong-ev-one",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Audi",
+   "name": "Audi Tân Bình",
+   "address": "Lô IV-22 đường Tây Thạnh, KCN Tân Bình, Phường Tây Thạnh, Quận Tân Phú",
+   "city": "TP. Hồ Chí Minh",
+   "phone": "1800 888 861 / 0981 811 811",
+   "charger_notes": "Largest Audi facility in Vietnam (9,000 m2). EV ONE public charging station on-site: DC fast charger 180 kW (ABB Terra 184), plus AC 22 kW wallboxes and a 24 kW DC wallbox in the service area. Listed in the EV ONE public network.",
+   "source_url": "https://ev-one.vn/tin-tuc/he-thong-tram-sac-cong-cong-ev-one",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Audi",
+   "name": "Audi City Phú Mỹ Hưng (Quận 7)",
+   "address": "Tòa nhà Lavida Plus, 1183 Nguyễn Văn Linh, Phường Tân Phong, Quận 7",
+   "city": "TP. Hồ Chí Minh",
+   "phone": "0766 669 986",
+   "charger_notes": "City showroom opened Mar 2024 at the Nguyễn Văn Linh – Nguyễn Hữu Thọ junction (~575 m2). EV ONE public fast charger up to 160 kW (Siemens). Confirmed public (a BYD was charged here per EV ONE). Note: one EV ONE source indicated this station was undergoing maintenance — verify availability before relying on it.",
+   "source_url": "https://ev-one.vn/xe-byd-sac-tai-tram-sac-cong-cong-ev-one-audi-city-phu-my-hung/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Audi",
+   "name": "Audi Đà Nẵng",
+   "address": "86C Duy Tân, Phường Hòa Cường (Hòa Thuận), Quận Hải Châu",
+   "city": "Đà Nẵng",
+   "phone": "1800 888 861",
+   "charger_notes": "EV ONE public charging station on-site: DC fast charger 180 kW (ABB, Switzerland), in a 3,000 m2 outdoor area. Listed on PlugShare (location 706251) and in the EV ONE public network. Hours 8:00-19:00; after 19:00 contact staff. Confirmed public.",
+   "source_url": "https://www.plugshare.com/location/706251",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Ford",
+   "name": "Bến Thành Ford (Chế Lan Viên)",
+   "address": "39 Chế Lan Viên, Phường Tây Thạnh, TP. Hồ Chí Minh",
+   "city": "Ho Chi Minh City",
+   "phone": "1900 23 23 46",
+   "charger_notes": "Strongest evidence of all dealers: Bến Thành Ford publicly announced installing a 120 kW DC fast charger at the showroom ahead of the Mustang Mach-E launch (CCS2). Listed as part of Ford VN's dealer charging network (Ford EV charging map / FordPass). Likely usable by EV-driving visitors at the showroom, though primary intent is Mach-E customers; access details should be confirmed by phone.",
+   "source_url": "https://benthanhford.com.vn/ben-thanh-ford-trien-khai-tram-sac-nhanh-120-kw-san-sang-don-mustang-mach-e",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Ford",
+   "name": "City Ford",
+   "address": "218 Quốc Lộ 13, Phường Hiệp Bình, TP. Hồ Chí Minh",
+   "city": "Ho Chi Minh City",
+   "phone": "1800 58 88 88",
+   "charger_notes": "News (NLD, tinxe.vn) reported Ford VN installed chargers at numerous HCMC-area authorized dealers first, ahead of the Aug 2025 Mach-E launch (CCS2, AC 11kW / DC 60kW). City Ford is one of the largest HCMC authorized dealers and part of the ~53-charger dealer network shown on Ford's public EV map / FordPass. Per-site charger and public access not individually confirmed — call to verify.",
+   "source_url": "https://oto360.net/dai-ly-ford",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Ford",
+   "name": "Sài Gòn Ford (Cao Thắng)",
+   "address": "61A Cao Thắng, Phường Bàn Cờ, TP. Hồ Chí Minh",
+   "city": "Ho Chi Minh City",
+   "phone": "1800 8353",
+   "charger_notes": "Major HCMC authorized Ford dealer within the dealer charging network rolled out for the Mustang Mach-E (CCS2, AC 11kW / DC 60kW), per Ford VN's announcement of 53 dealer chargers shown on Ford's public EV map / FordPass. Specific per-site charger not individually confirmed in a single source — verify by phone.",
+   "source_url": "https://saigonford.com.vn/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Ford",
+   "name": "Sài Gòn Ford - Nam Sài Gòn (Ford Nam Sài Gòn)",
+   "address": "161F Dạ Nam, Phường Chánh Hưng (Quận 8), TP. Hồ Chí Minh",
+   "city": "Ho Chi Minh City",
+   "phone": "1800 58 88 88",
+   "charger_notes": "Authorized HCMC Ford dealer; actively markets the Mustang Mach-E and is part of the dealer charging network (CCS2). Part of the ~53 dealer chargers on Ford VN's public EV map / FordPass. Per-site charger presence and public access not individually confirmed — verify by phone.",
+   "source_url": "https://namsaigonford.com.vn/ford-mustang-mach-e/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Ford",
+   "name": "Ford Huế (Phước Thành Huế)",
+   "address": "595 Nguyễn Tất Thành, Phường Thany Thủy, TP. Huế",
+   "city": "Hue",
+   "phone": "1800 58 88 88",
+   "charger_notes": "Ford Huế dealer site states the Ford EV charging network was deployed including its area; two EV ONE public chargers operate in Hue (Azerai La Residence, 5 Lê Lợi; ÊMM Huế, 17 Lý Thường Kiệt) usable by Mach-E owners. Dealer is part of the CCS2 charging rollout. Note: the confirmed public chargers in Hue are EV ONE partner sites, not necessarily on the dealer lot itself — confirm on-site charger by phone.",
+   "source_url": "https://ford-hue.com.vn/he-thong-tram-sac-dien-xe-ford-tren-viet-nam/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Geely",
+   "name": "Geely Phú Mỹ Hưng",
+   "address": "54 Nguyễn Thị Thập, Phường Bình Thuận (Tân Thuận), Quận 7",
+   "city": "Ho Chi Minh City",
+   "phone": "0908 685 454",
+   "charger_notes": "CONFIRMED public charger (RabbitEVC station ID SGN59-45), live since mid-2025. Open to all EV brands via the RabbitEVC app at ~6,000đ/kWh (excl. VAT); Geely owners get an extra discount. One of the first 3 of 50 planned Geely x Rabbit EVC showroom chargers made public.",
+   "source_url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Geely",
+   "name": "Geely Đà Nẵng",
+   "address": "286 Phạm Hùng, Hòa Phước, Hòa Vang",
+   "city": "Da Nang",
+   "phone": "0787 086 286",
+   "charger_notes": "CONFIRMED public charger (RabbitEVC station ID DAD43-08), live since mid-2025. Public access for all EV brands via the RabbitEVC app. One of the first 3 of 50 planned Geely x Rabbit EVC showroom chargers made public.",
+   "source_url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Geely",
+   "name": "Geely Hạ Long",
+   "address": "Ô số 02 lô B, Khu đô thị mới phần mở rộng, đầu đường Tuần Châu, Phường Hà Khẩu, TP. Hạ Long",
+   "city": "Ha Long, Quảng Ninh",
+   "phone": "0911 016 568",
+   "charger_notes": "CONFIRMED public charger (RabbitEVC station ID QNH14-07), live since mid-2025. Public access for all EV brands via the RabbitEVC app. One of the first 3 of 50 planned Geely x Rabbit EVC showroom chargers made public.",
+   "source_url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "BYD",
+   "name": "BYD Oway Sài Gòn",
+   "address": "816 Sư Vạn Hạnh, Phường 12 (Hòa Hưng), Quận 10",
+   "city": "Ho Chi Minh City",
+   "phone": "0975 047 068",
+   "charger_notes": "On-site DC fast chargers 60-120 kW (CCS2) plus AC 7 kW (Type 2). Primarily for customers - many new buyers get free 24/7 charging for the first year. Confirmed via dealer site; treat as customers-first rather than fully open public.",
+   "source_url": "https://bydoway.vn/tram-sac-byd-tphcm/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "BYD",
+   "name": "BYD Sài Gòn (Võ Văn Kiệt)",
+   "address": "2094E Võ Văn Kiệt, Phường An Lạc, Quận Bình Tân",
+   "city": "Ho Chi Minh City",
+   "phone": "0969 706 750",
+   "charger_notes": "On-site DC fast charging ~120 kW (CCS2), described as open to both customers and the public, operating 24/7 at ~6,900 VND/kWh. Strongest public-charger evidence of the listed showrooms.",
+   "source_url": "https://byd-saigon.net/tram-sac-byd-tphcm/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "BYD",
+   "name": "BYD Gia Định",
+   "address": "144/1 Quốc Lộ 1A (Đỗ Mười), Phường Thới An, Quận 12",
+   "city": "Ho Chi Minh City",
+   "phone": "0932 700 512",
+   "charger_notes": "Showroom/service center reported to have a 150 kW DC fast charger (~80% in 30 min), provided free for customers using service at the center (customers-only per source). Address also cited as 900 Quốc Lộ 1A, P. Thạnh Xuân, Q.12 in some listings.",
+   "source_url": "https://bydtiengiang.net/byd-ho-chi-minh/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "BYD",
+   "name": "BYD Harmony Sài Gòn",
+   "address": "619 Huỳnh Tấn Phát, Tân Thuận, Quận 7",
+   "city": "Ho Chi Minh City",
+   "phone": "0907 666 863",
+   "charger_notes": "3S authorized dealer (sales, after-sales, parts). On-site charging is typical for BYD showrooms (destination charger for customers); no explicit public-vs-customer detail confirmed in sources - treat as customers/visitors at showroom.",
+   "source_url": "https://www.byd.com/vn/store",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "BYD",
+   "name": "BYD HTA Tây Hồ",
+   "address": "685A Lạc Long Quân, Phú Thượng, Quận Tây Hồ",
+   "city": "Hanoi",
+   "phone": null,
+   "charger_notes": "Official BYD dealer per byd.com/vn/store. On-site destination charger is typical for BYD 3S/4S showrooms but specific public-vs-customer charger detail not confirmed in sources - treat as customers/visitors.",
+   "source_url": "https://www.byd.com/vn/store",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Volvo",
+   "name": "Volvo Hà Nội (Volvo Car Hà Nội)",
+   "address": "Số 7-9 Nguyễn Văn Linh, Tổ 17, Phường Việt Hưng (Long Biên), Hà Nội",
+   "city": "Hà Nội",
+   "phone": "085 832 6666 / 0336 011487 (Rabbit EVC station hotline)",
+   "charger_notes": "120 kW DC fast charger, 1 charging post with 2 x DC CCS2 connectors. PUBLIC: operated on the Rabbit EVC commercial network, listed on PlugShare (station HAN29-23) and usable by any EV driver via the Rabbit EVC app with pay-per-use pricing (activation 20,000 points/session + 4,000 points per kWh). Volvo EV buyers get 1 year free; others pay. Strongest evidence of public access of all the Volvo sites (independent PlugShare + Rabbit EVC listing). Listed as active.",
+   "source_url": "https://www.plugshare.com/location/706654",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Volvo",
+   "name": "Volvo Car Đà Nẵng",
+   "address": "02 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng",
+   "city": "Đà Nẵng",
+   "phone": "0949 681 431",
+   "charger_notes": "120 kW DC fast charger with 2 x DC CCS2 connectors, Rabbit EVC technology/network. PUBLIC: dealer page states drivers can locate the station and pay via the Rabbit EVC app (network shared with VinFast, BYD, Mercedes, etc.), not customers-only. Installed/announced 30 July 2025 and described as newly active.",
+   "source_url": "https://volvodanang.vn/tram-sac-dc-120kw-tai-volvo-car-da-nang-sac-nhanh-tien-loi-ben-vung/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Volvo",
+   "name": "Volvo Sài Gòn / Volvo Nam Sài Gòn (Quận 7)",
+   "address": "340 Nguyễn Văn Linh, Phường Tân Phong, Quận 7, TP. Hồ Chí Minh",
+   "city": "Hồ Chí Minh",
+   "phone": null,
+   "charger_notes": "120 kW DC fast charger with 2 x DC CCS2 connectors on the Rabbit EVC network. PUBLIC: same Rabbit EVC spec and app-based pay-per-use access as the Hanoi and Da Nang Volvo stations (activation 20,000 points + 4,000 points/kWh). Slightly weaker direct evidence than Hanoi (no standalone PlugShare/dealer-specific page fetched), but multiple sources list it as a Rabbit EVC-equipped Volvo station. Believed active.",
+   "source_url": "https://volvocar-hanoi.vn/tram-sac-xe-volvo/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Wuling",
+   "name": "Wuling Bắc Từ Liêm (Hanoi)",
+   "address": "Số 26 Cầu Diễn, Phường Phúc Diễn (now Phú Diễn), Quận Bắc Từ Liêm",
+   "city": "Hà Nội",
+   "phone": "0333263826",
+   "charger_notes": "Fascha DC fast charger, 30kW (also reported 60kW), 2 ports, connectors CCS2 + GBT. PUBLIC: listed on sacdien.net public charging directory, open 24/7, pay via Fascha app, ~4.5k-7k VND/kWh by time-of-day. Active/operational. Amenities: restroom, WiFi.",
+   "source_url": "https://sacdien.net/tram/tram-sac-fascha-showroom-wuling-bac-tu-liem-ha-noi/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Wuling",
+   "name": "Wuling Hải Phòng",
+   "address": "26 Đường Vòng Cầu Niệm, Phường Nghĩa Xá, Quận Lê Chân",
+   "city": "Hải Phòng",
+   "phone": "0904019088",
+   "charger_notes": "Fascha DC fast charger, 30kW, 2 ports (an earlier Fascha article cited a 20kW AC unit; current sacdien.net listing says DC 30kW x2). PUBLIC: listed on public charging directory, open 24/7, pay via Fascha app, 4.5k-7k VND/kWh. Active. Restroom + WiFi.",
+   "source_url": "https://sacdien.net/tram/tram-sac-fascha-showroom-wuling-hai-phong/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Wuling",
+   "name": "Wuling Khánh Hòa (Tây Nha Trang)",
+   "address": "779 Đường 23/10, Phường Tây Nha Trang (Xã Vĩnh Thạnh), Tp. Nha Trang",
+   "city": "Nha Trang, Khánh Hòa",
+   "phone": "0905966722 (station); dealer 0935229226",
+   "charger_notes": "DC 60kW, 2 ports, one port GBT (Chinese standard). PUBLIC: listed on sacdien.net public directory, open 24/7, pay via QR code, 6k-8.9k VND/kWh by time-of-day. Active/operational. Restroom + WiFi.",
+   "source_url": "https://sacdien.net/tram/tram-sac-xe-dien-showroom-wuling-tay-nha-trang-khanh/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Wuling",
+   "name": "Wuling Hưng Yên",
+   "address": "Số 58 Nguyễn Văn Linh, Phường An Tảo (now Phố Hiến), TP. Hưng Yên",
+   "city": "Hưng Yên",
+   "phone": "0975095888 (station); dealer 0862486689",
+   "charger_notes": "EVPAY DC 40kW, 2 ports. PUBLIC: listed on sacdien.net public directory, open 24/7, pay via EVPAY app, ~5.5k VND/kWh. Active. Note: requires EVPAY app (app-only) — open to any driver but app registration needed; listing context is a dealership so verify on arrival.",
+   "source_url": "https://sacdien.net/tram/tram-sac-evpay-showroom-wuling-hung-yen/",
+   "lat": null,
+   "lng": null
+  },
+  {
+   "brand": "Wuling",
+   "name": "Wuling Thanh Hóa",
+   "address": "280 Bà Triệu, Phường Trường Thi (now Hạc Thành), TP. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "phone": "0912015656",
+   "charger_notes": "DC 60kW, 2 ports. PUBLIC: listed on sacdien.net public directory, open 24/7, pay via bank QR transfer. Active/operational. Restroom + WiFi. Pricing not published on listing.",
+   "source_url": "https://sacdien.net/tram/tram-sac-xe-dien-showroom-wuling-thanh-hoa/",
+   "lat": null,
+   "lng": null
+  }
+ ]
+}
