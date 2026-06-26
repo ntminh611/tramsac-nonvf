@@ -1,0 +1,20 @@
+Trạm sạc NonVF giúp bạn tìm nhanh các trạm sạc xe điện công cộng trên khắp Việt Nam — từ nhiều mạng lưới và showroom/đại lý khác nhau, gom về một bản đồ duy nhất.
+
+⚡ TÍNH NĂNG CHÍNH
+• Bản đồ hơn 1.000 trạm sạc trên cả nước, gom cụm mượt mà, xem nhanh khu vực quanh bạn.
+• "Gần tôi": tự định vị và sắp xếp trạm theo khoảng cách — biết ngay trạm nào gần nhất.
+• Thông tin từng trạm: địa chỉ cụ thể, công suất (kW), loại cổng sạc, loại xe (ô tô / xe máy điện), giá sạc và hình thức thanh toán.
+• Chỉ đường tới trạm bằng một chạm, hoặc gọi điện trực tiếp cho trạm.
+• Bộ lọc linh hoạt: theo loại xe, theo nguồn, theo thương hiệu mạng sạc.
+• Tìm kiếm theo tên, địa chỉ hoặc tỉnh/thành.
+
+🔌 BAO PHỦ
+Tổng hợp các trạm sạc công cộng từ nhiều mạng lưới phổ biến (EBOOST, EVPay, EV ONE, EV Power, EverCharge, SolarEV, Rabbit EVC, BITcharge, CHARGE+ và nhiều mạng khác) cùng các showroom/đại lý ô tô điện có trạm sạc công cộng (Audi, Ford, BYD, Geely, Volvo, Wuling...). Ứng dụng tập trung vào các trạm ngoài hệ sinh thái VinFast.
+
+🔄 DỮ LIỆU LUÔN MỚI
+Danh sách trạm được cập nhật tự động hằng ngày, nên bạn luôn thấy thông tin mới mà không cần chờ bản cập nhật ứng dụng. Dữ liệu cũng được lưu sẵn trong máy để xem cả khi mất mạng.
+
+🗺️ NHẸ & RIÊNG TƯ
+Ứng dụng nhẹ, dùng bản đồ OpenStreetMap. Vị trí của bạn chỉ được dùng ngay trên máy để tìm trạm gần nhất — không thu thập, không chia sẻ.
+
+Lưu ý: thông tin trạm (đặc biệt là giá) được tổng hợp từ các nguồn công khai và có thể thay đổi; vui lòng kiểm tra lại tại trạm. Ứng dụng không liên kết chính thức với các thương hiệu được nhắc tới.
