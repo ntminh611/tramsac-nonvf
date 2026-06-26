@@ -57,6 +57,12 @@ android {
                 signingConfigs.getByName("release")
             else
                 signingConfigs.getByName("debug")
+            // Don't bundle the ~46MB of native debug symbols (.sym). They only help
+            // Play symbolicate rare *native* engine crashes; Dart crashes are
+            // unaffected. Big upload-size win, zero impact on users.
+            ndk {
+                debugSymbolLevel = "none"
+            }
         }
     }
 }
