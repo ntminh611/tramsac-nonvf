@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T11:11:48+00:00",
+ "generated_at": "2026-06-26T05:50:24+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -341,7 +341,7 @@
    "address": "Ấp 1, Thị trấn Nàng Mau, Huyện Vị Thủy, Tỉnh Hậu Giang, TP. Cần Thơ",
    "province": "TP. Cần Thơ",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -1415,7 +1415,7 @@
    "address": "121 Ngõ 254 Minh Khai, Phường Mai Động, Quận Hoàng Mai, TP. Hà Nội",
    "province": "TP. Hà Nội",
    "phone": "0985 271 186",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -1752,7 +1752,7 @@
    "address": "Số 61/66 Triều Khúc, Xã Tân Triều, Huyện Thanh Trì, TP. Hà Nội",
    "province": "TP. Hà Nội",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -3370,7 +3370,7 @@
    "address": "67 Nguyễn Cừ, Phường Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0707 978 793",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -3815,7 +3815,7 @@
    "address": "417 Nguyễn Văn Bá, Phường Trường Thọ, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -3857,7 +3857,7 @@
    "address": "69 Đường B4 - Khu đô thị Sala, Phường An Lợi Đông, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -4325,7 +4325,7 @@
    "address": "21 Lý Chiêu Hoàng, Phường 10, Quận 6, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4473,7 +4473,7 @@
    "address": "6 Đường 55, Phường Thạnh Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW, 22kW",
    "connector": "AC, AC",
    "vehicle_types": [
@@ -5382,7 +5382,7 @@
    "address": "19 Trần Quý Kiên, Phường Thạnh Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0826886878",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -6019,7 +6019,7 @@
    "address": "42 Trung Mỹ Tây 1, Phường Trung Mỹ Tây, Quận 12, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -6336,7 +6336,7 @@
    "address": "33 Lê Duẩn, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "02838288686",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 22kW",
    "connector": "AC",
    "vehicle_types": [
@@ -6630,7 +6630,7 @@
    "address": "43 Đường Hưng Thái 2 - Khu biệt thự Hưng Thái - Phú Mỹ Hưng, Phường Tân Phong, Quận 7, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -6672,7 +6672,7 @@
    "address": "30 Đường 30 Tháng 4, Phường Chánh Nghĩa, TP. Thủ Dầu Một, Tỉnh Bình Dương, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -7239,7 +7239,7 @@
    "address": "554 Hà Huy Giáp,Phường Thạnh Lộc, Quận 12, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0857977018",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -9847,7 +9847,7 @@
    "address": "01 Võ Văn Ngân, Phường Linh Chiểu, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW, 11kW, 22kW",
    "connector": "AC, AC, AC",
    "vehicle_types": [
@@ -9931,7 +9931,7 @@
    "address": "530 Kinh Dương Vương, Phường An Lạc, Quận Bình Tân, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "1800545445",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "60kW",
    "connector": "DC",
    "vehicle_types": [
@@ -9994,7 +9994,7 @@
    "address": "141 Thạnh Xuân 52 - KP 3, Phường Thạnh Xuận, Quận 12, TP. HCM, Phường Thạnh Xuân, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 22kW",
    "connector": "AC",
    "vehicle_types": [
@@ -10813,7 +10813,7 @@
    "address": "101 Nguyễn Cao, Phường Tân Phong, Quận 7, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -10855,7 +10855,7 @@
    "address": "210 Hà Huy Tập, Khu đô thị Phú Mỹ Hưng, Phường Tân Phong, Quận 7, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0908 198 148",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -10960,7 +10960,7 @@
    "address": "1202 Văn Tiến Dũng (QL50) - Ấp 5, Xã Phong Phú, Huyện Bình Chánh, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -10981,7 +10981,7 @@
    "address": "678 Lạc Long Quân, Phường 9, Quận Tân Bình, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0923 335 151",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -12035,7 +12035,7 @@
    "address": "44 Trần Nam Trung, Phường Hòa Xuân, Quận Cẩm Lệ, TP. Đà Nẵng",
    "province": "TP. Đà Nẵng",
    "phone": "0857977018",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -12413,7 +12413,7 @@
    "address": "110 Huỳnh Văn Gấm, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà Nẵng, Phường Hòa Xuân",
    "province": "TP. Đà Nẵng",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -12874,7 +12874,7 @@
    "address": "Đường số 8 Khu đô thị Tây Bắc, Phường Vĩnh Quang, TP. Rạch Giá, Tỉnh Kiên Giang, Tỉnh An Giang",
    "province": "Tỉnh An Giang",
    "phone": "0846 666 270",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -13630,7 +13630,7 @@
    "address": "475 Trần Phú, Xã Thạch Trung, TP. Hà Tĩnh, Tỉnh Hà Tĩnh",
    "province": "Tỉnh Hà Tĩnh",
    "phone": "0833137678",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -14387,7 +14387,7 @@
    "address": "699 Lê Hồng Phong, Phường Phước Hải, TP. Nha Trang, Tỉnh Khánh Hòa",
    "province": "Tỉnh Khánh Hòa",
    "phone": "0857977018",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 22kW, 7kW",
    "connector": "AC, AC",
    "vehicle_types": [
@@ -16550,7 +16550,7 @@
    "address": "25 Ngô Thời Nhậm, Phường 1, TP. Bảo Lộc, Tỉnh Lâm Đồng",
    "province": "Tỉnh Lâm Đồng",
    "phone": "0332 350 181",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -16718,7 +16718,7 @@
    "address": "150 Hồ Tùng Mậu, Phường 1, TP. Bảo Lộc, Tỉnh Lâm Đồng",
    "province": "Tỉnh Lâm Đồng",
    "phone": "0898423011",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -16781,7 +16781,7 @@
    "address": "Quốc lộ 1A, Xã Hàm Minh, Huyện Hàm Thuận Nam, Tỉnh Bình Thuận, Tỉnh Lâm Đồng",
    "province": "Tỉnh Lâm Đồng",
    "phone": "0979 574 006",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -17264,7 +17264,7 @@
    "address": "Đường Hùng Lý, Xã Chính Lý, Huyện Lý Nhân, Tỉnh Hà Nam, Tỉnh Ninh Bình",
    "province": "Tỉnh Ninh Bình",
    "phone": "0349344344",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "30kW - 7kW",
    "connector": "AC, DC",
    "vehicle_types": [
@@ -17348,7 +17348,7 @@
    "address": "Đường Nguyễn Văn Linh, Phường Xuân Hoà, TP. Phúc Yên, Tỉnh Vĩnh Phúc, Phường Xuân Hòa, Tỉnh Phú Thọ",
    "province": "Tỉnh Phú Thọ",
    "phone": "0973 047 789",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -18734,7 +18734,7 @@
    "address": "92 Việt Bắc, Phường Phan Đình Phùng, Tỉnh Thái Nguyên, TP. Thái Nguyên, Phường Đồng Quang",
    "province": "Tỉnh Thái Nguyên",
    "phone": "0941696699",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "30kW",
    "connector": "DC",
    "vehicle_types": [
@@ -19070,7 +19070,7 @@
    "address": "473 Ấp Nhơn Thuận, Xã Nhơn Thạnh Trung, TP. Tân An, Tỉnh Long An, Tỉnh Tây Ninh",
    "province": "Tỉnh Tây Ninh",
    "phone": "0947 843 123",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -19491,7 +19491,7 @@
    "address": "159 Nguyễn Chí Thanh, Phường Tân An, TP. Buôn Ma Thuột, Tỉnh Đắk Lắk",
    "province": "Tỉnh Đắk Lắk",
    "phone": "0857977018",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20079,7 +20079,7 @@
    "address": "Đường Nam Cao, Xã Phú Trung, Tỉnh Đồng Nai, TP. Biên Hòa, Phường Phước Tân",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20184,7 +20184,7 @@
    "address": "01 Ngô Gia Tự, Phường Tân Phú, TP. Đồng Xoài, Tỉnh Bình Phước, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20205,7 +20205,7 @@
    "address": "LK2-38 Khu dân cư Long Châu, Phường Tam Hiệp, TP. Biên Hòa, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20247,7 +20247,7 @@
    "address": "163A Ấp Quảng Hòa, Xã Quảng Tiến, Huyện Trảng Bom, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "120kW",
    "connector": "Fast DC",
    "vehicle_types": [
@@ -20268,7 +20268,7 @@
    "address": "Đường 6A - Tổ 3 Ấp 1, Xã Sông Trầu, Huyện Trảng Bom, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 22kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20373,7 +20373,7 @@
    "address": "K8 - Võ Thị Sáu - Khu phố 7, Phường Thống Nhất, TP. Biên Hoà, Tỉnh Đồng Nai, TP. Biên Hòa",
    "province": "Tỉnh Đồng Nai",
    "phone": "0844365365",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "30kW",
    "connector": "DC",
    "vehicle_types": [
@@ -20940,7 +20940,7 @@
    "address": "43 Ngô Quyền, Phường 7, TP. Mỹ Tho, Tỉnh Tiền Giang, Tỉnh Đồng Tháp",
    "province": "Tỉnh Đồng Tháp",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -21045,7 +21045,7 @@
    "address": "Đường DT 864 - 266 Ấp Đông Hòa, Xã Song Thuận, Huyện Châu Thành, Tỉnh Tiền Giang, Tỉnh Đồng Tháp",
    "province": "Tỉnh Đồng Tháp",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -21066,7 +21066,7 @@
    "address": "522 Ngô Gia Tự (Đường DT 864), Xã Trung An. TP. Mỹ Tho, Tỉnh Tiền Giang, Tỉnh Đồng Tháp",
    "province": "Tỉnh Đồng Tháp",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -21507,7 +21507,7 @@
    "address": "582 Đinh Bộ Lĩnh, Phường 9, TP. Mỹ Tho, Tỉnh Tiền Giang, Tỉnh Đồng Tháp",
    "province": "Tỉnh Đồng Tháp",
    "phone": "0933 774 858",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
