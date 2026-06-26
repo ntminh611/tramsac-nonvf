@@ -26,6 +26,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -131,6 +132,28 @@ def brand_of(slug_and_name: str) -> str | None:
     return None
 
 
+def _ascii_key(s: str) -> str:
+    """Diacritic-stripped key for comparing place names — collapses Vietnamese
+    tone-mark variants ('Hòa Quý' == 'Hoà Quý') that are different Unicode."""
+    s = (s or "").replace("đ", "d").replace("Đ", "d")
+    s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def dedup_address(addr: str) -> str:
+    """Drop repeated comma-atoms (e.g. a ward listed in both streetAddress and
+    addressLocality, often as a tone-mark variant) keeping first occurrence."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for atom in (addr or "").split(","):
+        atom = atom.strip()
+        k = _ascii_key(atom)
+        if atom and k and k not in seen:
+            seen.add(k)
+            out.append(atom)
+    return ", ".join(out)
+
+
 def _clean(v: str | None) -> str | None:
     if not v:
         return None
@@ -182,18 +205,13 @@ def parse_station(url: str, html: str) -> dict | None:
                      if isinstance(p, dict) and p.get("name") == "New Province/City"), None)
     province = pick_province([new_prov, addr.get("addressRegion"),
                               addr.get("addressLocality"), addr.get("streetAddress")])
-    # streetAddress often already spells out ward+district+province, so only append
-    # a part whose (diacritic-loose) text isn't already inside what we've built.
-    parts: list[str] = []
-    acc = ""
-    for p in (addr.get("streetAddress"), addr.get("extendedAddress"),
-              addr.get("addressLocality"), province):
-        p = _clean(p)
-        key = re.sub(r"\s+", "", (p or "").lower())
-        if p and key and key not in re.sub(r"\s+", "", acc.lower()):
-            parts.append(p)
-            acc += " " + p
-    address = ", ".join(parts)
+    # streetAddress usually already spells out ward+district+province; join the
+    # JSON-LD parts then drop repeated atoms (diacritic-insensitive) so a ward
+    # doesn't show twice as "Hòa Quý ... Hoà Quý".
+    raw = ", ".join(p for p in (_clean(addr.get("streetAddress")),
+                                _clean(addr.get("extendedAddress")),
+                                _clean(addr.get("addressLocality")), province) if p)
+    address = dedup_address(raw)
 
     connector = power = None
     vehicle_types: list[str] = []
@@ -329,6 +347,9 @@ def self_check() -> None:
     assert s["vehicle_types"] == ["Ô tô điện"], s
     assert s["province"] == "Thanh Hóa" and "Thanh Hóa" in s["address"], s
     assert s["price"] == "7k đồng/kWh", s["price"]
+    # tone-mark variant ward must collapse, not repeat at the end
+    assert dedup_address("126 X, Phường Hòa Quý, Quận Y, TP. Đà Nẵng, Phường Hoà Quý") == \
+        "126 X, Phường Hòa Quý, Quận Y, TP. Đà Nẵng", "ward should dedup across tone variants"
     assert _clean("Lynk &amp; Co") == "Lynk & Co", "html entities must decode"
     assert s["last_updated"] == "2026-05-01", s["last_updated"]
     assert s["id"] == "sacdien:tram-sac-ev-power-omoda-jaecoo-thanh-hoa", s["id"]
