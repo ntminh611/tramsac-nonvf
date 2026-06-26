@@ -7,7 +7,7 @@ import 'station.dart';
 /// once the repo is pushed, e.g.
 ///   https://raw.githubusercontent.com/USER/REPO/main/data/stations.json
 /// Leave empty to use only the bundled snapshot.
-const String kRemoteUrl = '';
+const String kRemoteUrl = 'https://raw.githubusercontent.com/ntminh611/tramsac-nonvf/main/data/stations.json';
 
 /// Loads stations: try the hosted JSON first (fresh), fall back to the asset
 /// bundled at build time (always works offline / before the URL is set).
