@@ -12,7 +12,7 @@ import 'store.dart';
 /// urlTemplate to a CORS-friendly provider with a key (MapTiler/Stadia/Carto) or
 /// self-host + cache tiles (e.g. flutter_map_tile_caching). Markers/data are fine.
 const _tileUrl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
-const _userAgent = 'net.sacdienmap.app';
+const _userAgent = 'com.ntminh.tramsacnonvf';
 const _vietnam = LatLng(16.0, 107.8);
 
 class MapPage extends StatefulWidget {
