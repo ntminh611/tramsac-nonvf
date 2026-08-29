@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T02:30:29+00:00",
+ "generated_at": "2026-08-29T02:04:02+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -4473,7 +4473,7 @@
    "address": "6 Đường 55, Phường Thạnh Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW, 22kW",
    "connector": "AC, AC",
    "vehicle_types": [
@@ -5933,7 +5933,7 @@
    "address": "68 Phan Đăng Lưu, Phường 5, Phú Nhuận, TP. HCM, Quận Phú Nhuận, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -6672,7 +6672,7 @@
    "address": "30 Đường 30 Tháng 4, Phường Chánh Nghĩa, TP. Thủ Dầu Một, Tỉnh Bình Dương, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -9931,7 +9931,7 @@
    "address": "530 Kinh Dương Vương, Phường An Lạc, Quận Bình Tân, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "1800545445",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "60kW",
    "connector": "DC",
    "vehicle_types": [
@@ -17264,7 +17264,7 @@
    "address": "Đường Hùng Lý, Xã Chính Lý, Huyện Lý Nhân, Tỉnh Hà Nam, Tỉnh Ninh Bình",
    "province": "Tỉnh Ninh Bình",
    "phone": "0349344344",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "30kW - 7kW",
    "connector": "AC, DC",
    "vehicle_types": [
@@ -20079,7 +20079,7 @@
    "address": "Đường Nam Cao, Xã Phú Trung, Tỉnh Đồng Nai, TP. Biên Hòa, Phường Phước Tân",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20184,7 +20184,7 @@
    "address": "01 Ngô Gia Tự, Phường Tân Phú, TP. Đồng Xoài, Tỉnh Bình Phước, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -20205,7 +20205,7 @@
    "address": "LK2-38 Khu dân cư Long Châu, Phường Tam Hiệp, TP. Biên Hòa, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -21486,7 +21486,7 @@
    "address": "178 Đường 23A - Ấp Thanh Sơn, Xã Thanh Hoà, Thị xã Cai Lậy, Tỉnh Tiền Giang, Tỉnh Đồng Tháp",
    "province": "Tỉnh Đồng Tháp",
    "phone": "0343754895",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
