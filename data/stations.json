@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T21:15:19+00:00",
+ "generated_at": "2026-09-13T21:19:45+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -5933,7 +5933,7 @@
    "address": "68 Phan Đăng Lưu, Phường 5, Phú Nhuận, TP. HCM, Quận Phú Nhuận, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
