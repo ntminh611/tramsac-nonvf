@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T21:51:53+00:00",
+ "generated_at": "2026-09-23T22:05:28+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -341,7 +341,7 @@
    "address": "Ấp 1, Thị trấn Nàng Mau, Huyện Vị Thủy, Tỉnh Hậu Giang, TP. Cần Thơ",
    "province": "TP. Cần Thơ",
    "phone": null,
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8037,7 +8037,7 @@
    "address": "120 Đường số 11, Phường Trường Thọ, TP. Thủ Đức, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0938312474",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -15815,7 +15815,7 @@
    "address": "19 Phan Như Thạch, Phường 1, TP.Đà Lạt, Tỉnh Lâm Đồng",
    "province": "Tỉnh Lâm Đồng",
    "phone": "0263 3836 768",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -16340,7 +16340,7 @@
    "address": "25 Phan Như Thạch, Phường 1, TP.Đà Lạt, Tỉnh Lâm Đồng",
    "province": "Tỉnh Lâm Đồng",
    "phone": "0337 386 851",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
