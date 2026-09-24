@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T22:05:28+00:00",
+ "generated_at": "2026-09-24T22:01:23+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -8037,7 +8037,7 @@
    "address": "120 Đường số 11, Phường Trường Thọ, TP. Thủ Đức, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0938312474",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -17264,7 +17264,7 @@
    "address": "Đường Hùng Lý, Xã Chính Lý, Huyện Lý Nhân, Tỉnh Hà Nam, Tỉnh Ninh Bình",
    "province": "Tỉnh Ninh Bình",
    "phone": "0349344344",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "30kW - 7kW",
    "connector": "AC, DC",
    "vehicle_types": [
