@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T22:53:56+00:00",
+ "generated_at": "2026-10-03T22:03:29+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -11275,7 +11275,7 @@
    "address": "111/3 Phạm Văn Chiêu, Phường 14, Quận Gò Vấp, TP. Hồ Chí Minh.",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
