@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-29T23:11:52+00:00",
+ "generated_at": "2026-10-30T22:52:40+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
-  "Đại lý Geely": 2,
+  "Đại lý Geely": 3,
   "Đại lý Volvo": 3,
   "Đại lý BYD": 3,
   "Đại lý Wuling": 3,
   "Đại lý Ford": 3,
-  "sacdien.net": 993
+  "sacdien.net": 965
  },
- "count": 1010,
+ "count": 983,
  "stations": [
   {
    "id": "dealer:audi-audi-da-nang",
@@ -232,6 +232,26 @@
    "approx": true
   },
   {
+   "id": "dealer:geely-geely-phu-my-hung",
+   "source": "Đại lý Geely",
+   "name": "Geely Phú Mỹ Hưng",
+   "brand": "Geely",
+   "lat": 10.738346,
+   "lng": 106.716985,
+   "address": "54 Nguyễn Thị Thập, Phường Bình Thuận (Tân Thuận), Quận 7",
+   "province": "Ho Chi Minh City",
+   "phone": "0908 685 454",
+   "hours": null,
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Ô tô điện"
+   ],
+   "payment": null,
+   "url": "https://rabbitevc.vn/geely-x-rabbit-evc-chinh-thuc-public-3-tren-tong-50-tram-sac-xe-dien-tai-showroom/",
+   "approx": true
+  },
+  {
    "id": "dealer:ford-sai-gon-ford-cao-thang",
    "source": "Đại lý Ford",
    "name": "Sài Gòn Ford (Cao Thắng)",
@@ -330,27 +350,6 @@
    "payment": null,
    "url": "https://sacdien.net/tram/tram-sac-evpay-showroom-wuling-hung-yen/",
    "approx": true
-  },
-  {
-   "id": "sacdien:tram-sac-dien-dat-charge-ca-phe-nguyen-chat-bay-gia",
-   "source": "sacdien.net",
-   "name": "Trạm sạc DAT.CHARGE - Cà Phê Nguyên Chất Bảy Gia",
-   "brand": "Dat Charge",
-   "lat": 9.7552,
-   "lng": 105.53352,
-   "address": "Ấp 1, Thị trấn Nàng Mau, Huyện Vị Thủy, Tỉnh Hậu Giang, TP. Cần Thơ",
-   "province": "TP. Cần Thơ",
-   "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": null,
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-dien-dat-charge-ca-phe-nguyen-chat-bay-gia/"
   },
   {
    "id": "sacdien:tram-sac-xe-dien-eboost-an-phu-center-point",
@@ -552,7 +551,7 @@
    "address": "1 - 3 Trần Văn Trà, Phường Hưng Phú, Quận Cái Răng, TP. Cần Thơ",
    "province": "TP. Cần Thơ",
    "phone": "0337870707",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -1068,28 +1067,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-sun-hotel/"
   },
   {
-   "id": "sacdien:tram-sac-bitcharge-chung-cu-901-starlake",
-   "source": "sacdien.net",
-   "name": "Trạm sạc BITCharge - Chung cư 901 Starlake",
-   "brand": "BitCharge",
-   "lat": 21.05284,
-   "lng": 105.79055,
-   "address": "901 Starlake KĐT Tây Hồ Tây, Phường Xuân Tảo, Quận Bắc Từ Liêm, TP. Hà Nội",
-   "province": "TP. Hà Nội",
-   "phone": null,
-   "hours": "Đóng cửa",
-   "power_kw": "kW - 22kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe máy điện",
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7k đồng/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-bitcharge-chung-cu-901-starlake/"
-  },
-  {
    "id": "sacdien:tram-sac-bitcharge-chung-cu-903-starlake",
    "source": "sacdien.net",
    "name": "Trạm sạc BITCharge - Chung cư 903 Starlake",
@@ -1110,6 +1087,27 @@
    "price": "7k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-bitcharge-chung-cu-903-starlake/"
+  },
+  {
+   "id": "sacdien:tram-sac-bitcharge-nha-hang-nhat-quan",
+   "source": "sacdien.net",
+   "name": "Trạm sạc BITCharge - Nhà hàng Nhất Quán",
+   "brand": "BitCharge",
+   "lat": 21.03836,
+   "lng": 105.80118,
+   "address": "Số 5 ngõ 118 Nguyễn Khánh Toàn, Phường Quan Hoa, Quận Cầu Giấy, TP. Hà Nội",
+   "province": "TP. Hà Nội",
+   "phone": null,
+   "hours": "Mở cửa",
+   "power_kw": "40kW",
+   "connector": "DC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "7k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-bitcharge-nha-hang-nhat-quan/"
   },
   {
    "id": "sacdien:tram-sac-bitcharge-phu-minh-soc-son",
@@ -1731,7 +1729,7 @@
    "address": "Số 61/66 Triều Khúc, Xã Tân Triều, Huyện Thanh Trì, TP. Hà Nội",
    "province": "TP. Hà Nội",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -1849,27 +1847,6 @@
    "url": "https://sacdien.net/tram/tram-sac-ev-power-omoda-jaecoo-nam-tu-liem-xuan-phuong-ha-noi/"
   },
   {
-   "id": "sacdien:tram-sac-ev-power-omoda-jaecoo-phuc-tho-phuc-tho-ha-noi",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EV Power - Omoda & Jaecoo Phúc Thọ - Phúc Thọ - Hà Nội",
-   "brand": "EV Power",
-   "lat": 21.12645,
-   "lng": 105.5187,
-   "address": "Quốc lộ 32 - Thôn 3, Xã Phúc Thọ, TP. Hà Nội, Huyện Phúc Thọ, Thị trấn Phúc Thọ",
-   "province": "TP. Hà Nội",
-   "phone": "0919915222",
-   "hours": "Mở cửa",
-   "power_kw": "60kW",
-   "connector": "DC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7k đồng/kWh",
-   "last_updated": "2026-01-21",
-   "url": "https://sacdien.net/tram/tram-sac-ev-power-omoda-jaecoo-phuc-tho-phuc-tho-ha-noi/"
-  },
-  {
    "id": "sacdien:tram-sac-evg-truong-cong-giai-cau-giay-ha-noi",
    "source": "sacdien.net",
    "name": "Trạm sạc EVG - Trương Công Giai - Cầu Giấy - Hà Nội",
@@ -1889,6 +1866,27 @@
    "price": "7k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-evg-truong-cong-giai-cau-giay-ha-noi/"
+  },
+  {
+   "id": "sacdien:tram-sac-evpay-hyundai-bac-viet",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EVPAY - Hyundai Bắc Việt",
+   "brand": "EVPay",
+   "lat": 21.03061,
+   "lng": 105.92684,
+   "address": "Lô D3-D4-D5 KCN Đài Tư - 286 Nguyễn Văn Linh, Phường Phúc Lợi, Quận Long Biên, TP. Hà Nội",
+   "province": "TP. Hà Nội",
+   "phone": null,
+   "hours": "Mở cửa",
+   "power_kw": "60kW",
+   "connector": "DC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "6.5k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-evpay-hyundai-bac-viet/"
   },
   {
    "id": "sacdien:tram-sac-evpay-kcn-ha-binh-phuong",
@@ -2288,27 +2286,6 @@
    "price": null,
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-a25-hotel/"
-  },
-  {
-   "id": "sacdien:diem-sac-xe-may-dien-chung-cu-hateco-apollo-xuan-phuong",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Chung Cư Hateco Apollo Xuân Phương",
-   "brand": null,
-   "lat": 21.04894,
-   "lng": 105.73505,
-   "address": "Đường Xuân Phương, Phường Xuân Phương, Quận Nam Từ Liêm, TP. Hà Nội",
-   "province": "TP. Hà Nội",
-   "phone": null,
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-chung-cu-hateco-apollo-xuan-phuong/"
   },
   {
    "id": "sacdien:diem-sac-xe-may-dien-htx-tin-phat",
@@ -2824,7 +2801,7 @@
    "address": "366 Bình Long, Phường Tân Phú, TP. HCM, Quận Tân Phú, Phường Phú Thọ Hòa, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0898176347",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -3214,27 +3191,6 @@
    "url": "https://sacdien.net/tram/tram-sac-dat-charge-dat-bike-store-kim-nhat-phat/"
   },
   {
-   "id": "sacdien:tram-sac-dien-dat-charge-dat-bike-store-nguyen-thi-thap",
-   "source": "sacdien.net",
-   "name": "Trạm sạc DAT.CHARGE - Dat Bike Store Nguyễn Thị Thập",
-   "brand": "Dat Charge",
-   "lat": 10.73842,
-   "lng": 106.71666,
-   "address": "224 Nguyễn Thị Thập, Phường Bình Thuận, Quận 7, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "1800 234 549",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": null,
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-dien-dat-charge-dat-bike-store-nguyen-thi-thap/"
-  },
-  {
    "id": "sacdien:tram-sac-dien-dat-charge-dat-bike-store-tu-xuong",
    "source": "sacdien.net",
    "name": "Trạm sạc DAT.CHARGE - Dat Bike Store Tú Xương",
@@ -3349,27 +3305,6 @@
    "address": "905 Đường ĐT741 - Tổ 2 Ấp Đồng Chinh, Xã Phước Hoà, Huyện Phú Giáo, Tỉnh Bình Dương, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": null,
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-dien-dat-charge-quay-thuoc-truc-anh/"
-  },
-  {
-   "id": "sacdien:tram-sac-dien-dat-charge-soma-saigon-an-event-venue",
-   "source": "sacdien.net",
-   "name": "Trạm sạc DAT.CHARGE - Soma Saigon - An Event Venue",
-   "brand": "Dat Charge",
-   "lat": 10.80464,
-   "lng": 106.73218,
-   "address": "6 Lê Văn Miến, Phường Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0795 070 010",
    "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
@@ -3379,7 +3314,7 @@
    "payment": null,
    "price": null,
    "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-dien-dat-charge-soma-saigon-an-event-venue/"
+   "url": "https://sacdien.net/tram/tram-sac-dien-dat-charge-quay-thuoc-truc-anh/"
   },
   {
    "id": "sacdien:tram-sac-dien-dat-charge-thang-2-cafe-cake",
@@ -3465,6 +3400,28 @@
    "price": "7.9k đ/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-eboost-an-khang-shop/"
+  },
+  {
+   "id": "sacdien:tram-sac-xe-dien-eboost-an-phu",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EBOOST - An Phú",
+   "brand": "EBOOST",
+   "lat": 10.74583,
+   "lng": 106.62631,
+   "address": "961 Hậu Giang, Phường 11, Quận 6, TP. Hồ Chí Minh",
+   "province": "TP. Hồ Chí Minh",
+   "phone": null,
+   "hours": "Mở cửa",
+   "power_kw": "kW - 7kW",
+   "connector": "AC",
+   "vehicle_types": [
+    "Xe máy điện",
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "7.9k đ/kWh",
+   "last_updated": "2025-09-25",
+   "url": "https://sacdien.net/tram/tram-sac-xe-dien-eboost-an-phu/"
   },
   {
    "id": "sacdien:tram-sac-xe-dien-eboost-azzan-premium-coffee-chocolate",
@@ -3561,7 +3518,7 @@
    "address": "23/20B Chánh Hưng, Phường 4, Quận 8, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -3582,7 +3539,7 @@
    "address": "51/10/9 Hòa Bình, Phường Tân Thới Hoà, Quận Tân Phú, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -3593,6 +3550,27 @@
    "price": "7.9k đ/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-xe-dien-eboost-bai-giu-xe-hoa-binh-quan-tan-phu/"
+  },
+  {
+   "id": "sacdien:tram-sac-eboost-bai-giu-xe-sao-vang-vung-tau",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EBOOST - Bãi giữ xe Sao Vàng - Vũng Tàu",
+   "brand": "EBOOST",
+   "lat": 10.35936,
+   "lng": 107.08861,
+   "address": "117/17 Huyền Trân Công Chúa, Phường 8, TP. Vũng Tàu, Tỉnh Bà Rịa - Vũng Tàu, TP. Hồ Chí Minh",
+   "province": "TP. Hồ Chí Minh",
+   "phone": null,
+   "hours": "Mở cửa",
+   "power_kw": "kW - 7kW",
+   "connector": "AC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "7.9k đ/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-eboost-bai-giu-xe-sao-vang-vung-tau/"
   },
   {
    "id": "sacdien:tram-sac-eboost-bai-rua-xe-minion",
@@ -3751,7 +3729,7 @@
    "address": "69 Đường B4 - Khu đô thị SALA, Phường An Lợi Đông, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -3772,7 +3750,7 @@
    "address": "69 Đường B4 - Khu đô thị Sala, Phường An Lợi Đông, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -3987,7 +3965,7 @@
    "address": "2/2 Đường 281, Phường 15, Quận 11, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4283,7 +4261,7 @@
    "address": "33 Lê Duẩn, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4409,7 +4387,7 @@
    "address": "Đường N2 - Khu Công nghiệp Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -4431,7 +4409,7 @@
    "address": "138-142 Hai Bà Trưng, Phường Đa Kao, Quận 1, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4473,7 +4451,7 @@
    "address": "364 Cộng Hòa, Phường 13, Quận Tân Bình, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4494,7 +4472,7 @@
    "address": "364 Cộng Hòa, Phường 13, Quận Tân Bình, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4515,7 +4493,7 @@
    "address": "11 Đoàn Văn Bơ, Phường 13, Quận 4, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4546,27 +4524,6 @@
    "price": "7.9k đ/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-xe-dien-eboost-feel-happy-coffee/"
-  },
-  {
-   "id": "sacdien:tram-sac-eboost-gara-auto365-binh-duong-cn-thuan-an",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - Gara Auto365 Bình Dương - CN Thuận An",
-   "brand": "EBOOST",
-   "lat": 10.9041,
-   "lng": 106.72194,
-   "address": "Đường DT743A - Bình Đức, Phường Bình Hòa, TP. Thuận An, Tỉnh Bình Dương, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0961136561",
-   "hours": "Mở cửa",
-   "power_kw": "kW - 22kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-gara-auto365-binh-duong-cn-thuan-an/"
   },
   {
    "id": "sacdien:tram-sac-xe-dien-eboost-gateway-thao-dien-b1",
@@ -4662,7 +4619,7 @@
    "address": "58H An Dương Vương, Phường 16, Quận 8, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0902338929",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4767,7 +4724,7 @@
    "address": "163 Hai Bà Trưng, Phường 5, Quận 3, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -4914,7 +4871,7 @@
    "address": "125 Đường số 24A, Phường Bình Trị Đông B, Quận Bình Tân, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0972383338",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -5117,27 +5074,6 @@
    "price": "7.9k đ/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-xe-dien-eboost-pagoda-homes/"
-  },
-  {
-   "id": "sacdien:tram-sac-eboost-pak-pak-parking-tan-my-hcm",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - Pak Pak Parking - Tân Mỹ - HCM",
-   "brand": "EBOOST",
-   "lat": 10.73188,
-   "lng": 106.71924,
-   "address": "800 Nguyễn Văn Linh, Phường Tân Mỹ, TP. HCM, Quận 7, Phường Tân Phú, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0984999840",
-   "hours": "Mở cửa",
-   "power_kw": "60kW",
-   "connector": "DC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-12-30",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-pak-pak-parking-tan-my-hcm/"
   },
   {
    "id": "sacdien:tram-sac-eboost-petit-hotel-thu-dau-mot-hcm",
@@ -5381,7 +5317,7 @@
    "address": "28 VSIP IIA - Đường số 25 Khu Công Nghiệp Việt Nam - Singapore II-A, Phường Vĩnh Tân, Thị xã Tân Uyên, Tỉnh Bình Dương, TP. Tân Uyên, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -5607,27 +5543,6 @@
    "url": "https://sacdien.net/tram/tram-sac-eboost-tttm-satra-centre-mall/"
   },
   {
-   "id": "sacdien:tram-sac-eboost-thanh-binh-quan-dong-hoa-hcm",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - Thanh Bình Quán - Đông Hòa - HCM",
-   "brand": "EBOOST",
-   "lat": 10.87769,
-   "lng": 108.81106,
-   "address": "100 Tân Lập, Phường Đông Hòa, TP. HCM, TP. Dĩ An, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": "kW - 22kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-12-31",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-thanh-binh-quan-dong-hoa-hcm/"
-  },
-  {
    "id": "sacdien:tram-sac-xe-dien-eboost-the-bridgeview",
    "source": "sacdien.net",
    "name": "Trạm sạc EBOOST - The Bridgeview",
@@ -5658,7 +5573,7 @@
    "address": "20 Nguyễn Thiện Thành, Phường An Khánh, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -5848,7 +5763,7 @@
    "address": "68 Phan Đăng Lưu, Phường 5, Phú Nhuận, TP. HCM, Quận Phú Nhuận, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -5870,7 +5785,7 @@
    "address": "190 Đường Nguyễn Văn Tạo, Xã Long Thới, Huyện Nhà Bè, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -5904,27 +5819,6 @@
    "url": "https://sacdien.net/tram/tram-sac-xe-dien-eboost-vision-1/"
   },
   {
-   "id": "sacdien:tram-sac-eboost-vien-duong-lao-damoca-hiep-phuoc-hcm",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - Viện dưỡng lão DAMOCA - Hiệp Phước - HCM",
-   "brand": "EBOOST",
-   "lat": 10.6748,
-   "lng": 108.69828,
-   "address": "990 Lê Văn Lương - Ấp 3, Xã Hiệp Phước, TP. Hồ Chí Minh, Huyện Nhà Bè, Xã Nhơn Đức",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0977775609",
-   "hours": "Mở cửa",
-   "power_kw": "kW - 7kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-12-31",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-vien-duong-lao-damoca-hiep-phuoc-hcm/"
-  },
-  {
    "id": "sacdien:tram-sac-xe-dien-eboost-viet-chao-hcm",
    "source": "sacdien.net",
    "name": "Trạm sạc EBOOST - Việt Chào HCM",
@@ -5934,7 +5828,7 @@
    "address": "42 Trung Mỹ Tây 1, Phường Trung Mỹ Tây, Quận 12, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -6683,27 +6577,6 @@
    "url": "https://sacdien.net/tram/tram-sac-ev-power-sieu-thi-noi-that-phuc-my-gia/"
   },
   {
-   "id": "sacdien:tram-sac-ev-power-sieu-thi-noi-that-phuc-my-gia-tran-nao",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EV Power - Siêu thị Nội thất Phúc Mỹ Gia - Trần Não",
-   "brand": "EV Power",
-   "lat": 10.78246,
-   "lng": 106.72909,
-   "address": "264 Trần Não, Phường Bình An, TP. Thủ Đức, TP. HCM, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": "60kW",
-   "connector": "DC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "9.9k đ/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-ev-power-sieu-thi-noi-that-phuc-my-gia-tran-nao/"
-  },
-  {
    "id": "sacdien:tram-sac-ev-power-trinh-quanh-nghi-binh-chanh",
    "source": "sacdien.net",
    "name": "Trạm sạc EV Power - Trịnh Quanh Nghị - Bình Chánh",
@@ -7040,27 +6913,6 @@
    "url": "https://sacdien.net/tram/tram-sac-rabbit-evc-cong-ty-thai-son/"
   },
   {
-   "id": "sacdien:tram-sac-rabbit-evc-five-star-auto",
-   "source": "sacdien.net",
-   "name": "Trạm sạc Rabbit EVC - Five Star Auto",
-   "brand": "Rabbit EVC",
-   "lat": 10.74997,
-   "lng": 106.61486,
-   "address": "257 - 259 - 261 Đường Vành Đai Trong, Phường Bình Trị Đông B, Quận Bình Tân, TP. HCM, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": "60kW - 22kW",
-   "connector": "DC, AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "6.5k đồng/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-rabbit-evc-five-star-auto/"
-  },
-  {
    "id": "sacdien:tram-sac-rabbit-evc-phuoc-kien-nha-be",
    "source": "sacdien.net",
    "name": "Trạm sạc Rabbit EVC - Phước Kiển Nhà Bè",
@@ -7124,27 +6976,6 @@
    "url": "https://sacdien.net/tram/tram-sac-solarev-charm-long-hai-resort-long-dien-hcm/"
   },
   {
-   "id": "sacdien:tram-sac-solarev-chung-cu-bcons-city-dong-hoa-hcm",
-   "source": "sacdien.net",
-   "name": "Trạm sạc SolarEV - Chung cư Bcons City - Đông Hòa - HCM",
-   "brand": "SolarEV",
-   "lat": 10.89117,
-   "lng": 106.79427,
-   "address": "57-60 Thống Nhất, Phường Đông Hoà, TP. HCM, TP. Dĩ An, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": "60kW",
-   "connector": "DC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7k đồng/kWh",
-   "last_updated": "2026-02-04",
-   "url": "https://sacdien.net/tram/tram-sac-solarev-chung-cu-bcons-city-dong-hoa-hcm/"
-  },
-  {
    "id": "sacdien:tram-sac-solarev-truong-cao-dang-dien-luc-tp-hcm",
    "source": "sacdien.net",
    "name": "Trạm sạc SolarEV - Trường Cao đẳng Điện lực TP. HCM",
@@ -7185,27 +7016,6 @@
    "price": "7k đồng/kWh",
    "last_updated": "2026-02-14",
    "url": "https://sacdien.net/tram/tram-sac-solarev-viet-han-hiep-binh-hcm/"
-  },
-  {
-   "id": "sacdien:tram-sac-solarev-ong-sanh-bia-hoi-ha-noi-long-binh-hcm",
-   "source": "sacdien.net",
-   "name": "Trạm sạc SolarEV - Ông Sành Bia hơi Hà Nội - Long Bình - HCM",
-   "brand": "SolarEV",
-   "lat": 10.83727,
-   "lng": 106.82999,
-   "address": "545 Nguyễn Xiển, Phường Long Bình, TP. Hồ Chí Minh, TP. Thủ Đức, Phường Long Thạnh Mỹ",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0932017668",
-   "hours": "Mở cửa",
-   "power_kw": "60kW",
-   "connector": "DC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7k đồng/kWh",
-   "last_updated": "2026-02-14",
-   "url": "https://sacdien.net/tram/tram-sac-solarev-ong-sanh-bia-hoi-ha-noi-long-binh-hcm/"
   },
   {
    "id": "sacdien:tram-sac-solarev-ga-metro-khu-cong-nghe-cao",
@@ -7343,7 +7153,7 @@
    "address": "14 Đường số 30, Phường Bình Trưng, TP. HCM, TP. Thủ Đức, Phường Bình Trưng Tây, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0962916357",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -7448,7 +7258,7 @@
    "address": "03 Đường số 4 - Khu phố 17, Phường Bình Hưng Hòa A, Quận Bình Tân, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "086211307",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -7458,27 +7268,6 @@
    "price": "30k đồng/lần",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-nhanh-vt-charging-tram-so-12/"
-  },
-  {
-   "id": "sacdien:tram-sac-nhanh-vt-charging-tram-so-14-tiem-rua-xe",
-   "source": "sacdien.net",
-   "name": "Trạm sạc nhanh VT Charging - Trạm số 14 - Tiệm rửa xe 189 Trần Bình Trọng",
-   "brand": "VT Charging",
-   "lat": 10.96446,
-   "lng": 106.67286,
-   "address": "189 Trần Bình Trọng, Phường Phú Thọ, TP. Thủ Dầu Một, Tỉnh Bình Dương, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0988069677",
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": null,
-   "price": "30k đồng/lần",
-   "last_updated": "2025-12-21",
-   "url": "https://sacdien.net/tram/tram-sac-nhanh-vt-charging-tram-so-14-tiem-rua-xe/"
   },
   {
    "id": "sacdien:tram-sac-nhanh-vt-charging-tram-so-15-ev-ion-4",
@@ -7595,7 +7384,7 @@
    "address": "03 Lam Sơn, Phường 5, Quận Phú Nhuận, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0909264266",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -7731,27 +7520,6 @@
    "price": "15k đồng/lần",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-nhanh-vt-charging-tram-so-5-ca-phe-vong-xanh-sg/"
-  },
-  {
-   "id": "sacdien:tram-sac-nhanh-vt-charging-tram-so-7-quan-7",
-   "source": "sacdien.net",
-   "name": "Trạm sạc nhanh VT Charging - Trạm số 7 - Quận 7",
-   "brand": "VT Charging",
-   "lat": 10.73761,
-   "lng": 106.7058,
-   "address": "03 Đường 64 - KDC Tân Quy Đông, Phường Tân Phong, Quận 7, TP. HCM, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0789232236",
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt, Chuyển khoản, Ví điện tử",
-   "price": "20k đồng/lần",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-nhanh-vt-charging-tram-so-7-quan-7/"
   },
   {
    "id": "sacdien:tram-sac-nhanh-vt-charging-tram-so-8",
@@ -8036,7 +7804,7 @@
    "address": "245 Thảo Điền, Phường Thảo Điện, TP. Thủ Đức, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8057,7 +7825,7 @@
    "address": "171 Liêu Bình Hương, Xã Tân An Hội, TP. HCM, Huyện Củ Chi, Thị trấn Củ Chi, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0909286616",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8078,7 +7846,7 @@
    "address": "Chân cầu Sắt Sập - Đường 379 TX 25, Phường Thạnh Xuân, Quận 12, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8277,27 +8045,6 @@
    "price": "5k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-xe-may-tsd775/"
-  },
-  {
-   "id": "sacdien:tram-sac-xe-may-tram-sac-24h",
-   "source": "sacdien.net",
-   "name": "Trạm sạc xe máy - Trạm sạc 24H",
-   "brand": null,
-   "lat": 10.80531,
-   "lng": 106.71157,
-   "address": "408 Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, TP. HCM, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0362735169",
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt, Chuyển khoản, Ví điện tử",
-   "price": "15k Đồng/Lần",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-xe-may-tram-sac-24h/"
   },
   {
    "id": "sacdien:tram-sac-xe-may-tram-sac-69-phuoc-long-hcm",
@@ -8519,7 +8266,7 @@
    "address": "24/25 Hồ Tùng Mậu - KP Bình Đường 2, Phường An Bình, TP. Dĩ An, Tỉnh Bình Dương, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0986423129",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8687,7 +8434,7 @@
    "address": "307 Đường số 8, Phường 11, Quận Gò Vấp, TP. HCM, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0908661767",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8697,27 +8444,6 @@
    "price": "5k đồng/giờ",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-xe-may-dien-quan-co-chu-nho/"
-  },
-  {
-   "id": "sacdien:tram-sac-xe-may-dien-tiem-nha-minh",
-   "source": "sacdien.net",
-   "name": "Trạm sạc xe máy điện - Tiệm nhà mình",
-   "brand": null,
-   "lat": 10.78845,
-   "lng": 106.64647,
-   "address": "01 Ca Văn Thỉnh, Phường 11, Quận Tân Bình, TP. HCM, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": null,
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt, Chuyển khoản, Ví điện tử",
-   "price": "5k Đồng/Giờ",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-xe-may-dien-tiem-nha-minh/"
   },
   {
    "id": "sacdien:tram-sac-xe-may-dien-tram-dung-chan-hi-hi",
@@ -8792,7 +8518,7 @@
    "address": "Số 3 Đường số 4, Phường Bình Hưng Hòa A, Quận Bình Tân, TP. Hồ Chí Minh.",
    "province": "TP. Hồ Chí Minh",
    "phone": "0386311207",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -8865,6 +8591,27 @@
    "price": "30k Đồng/Lần",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-xe-may-dien-xanh-sm-quan-7/"
+  },
+  {
+   "id": "sacdien:tram-sac-xe-may-dien-24-24-go-vap",
+   "source": "sacdien.net",
+   "name": "Trạm sạc xe máy điện 24/24 - Gò Vấp",
+   "brand": null,
+   "lat": 10.82092,
+   "lng": 106.69178,
+   "address": "68 Trần Quốc Tuấn, Phường 1, Quận Gò Vấp, TP. HCM, TP. Hồ Chí Minh",
+   "province": "TP. Hồ Chí Minh",
+   "phone": "0326061011",
+   "hours": "Mở cửa",
+   "power_kw": null,
+   "connector": null,
+   "vehicle_types": [
+    "Xe máy điện"
+   ],
+   "payment": "Tiền mặt, Chuyển khoản, Ví điện tử",
+   "price": "30k đồng/lần",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-xe-may-dien-24-24-go-vap/"
   },
   {
    "id": "sacdien:tram-sac-xe-may-dien-67a-xanh-sm",
@@ -9846,7 +9593,7 @@
    "address": "53 Đường 13, phường Bình Trưng Tây, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -10677,27 +10424,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-tiem-tra-an-nhien/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-co-charge-arrow-warehouse",
-   "source": "sacdien.net",
-   "name": "Điểm sạc Cỏ CHARGE - Arrow Warehouse",
-   "brand": "Co-Charge",
-   "lat": 10.79997,
-   "lng": 106.67791,
-   "address": "90 Trần Khắc Chân, Phường 9, Quận Phú Nhuận, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0706 555 420",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Miễn phí",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-co-charge-arrow-warehouse/"
-  },
-  {
    "id": "sacdien:tram-sac-dien-co-charge-ca-phe-ne",
    "source": "sacdien.net",
    "name": "Điểm sạc Cỏ CHARGE - Cà Phê Nè",
@@ -10707,7 +10433,7 @@
    "address": "101 Nguyễn Cao, Phường Tân Phong, Quận 7, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -10812,7 +10538,7 @@
    "address": "245 Nguyễn Duy Trinh, Phường Bình Trưng Tây, TP. Thủ Đức, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0939 305 458",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -10929,27 +10655,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-ca-phe-vong-24h/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-cafe-tram-sac-xe-may-dien-24h",
-   "source": "sacdien.net",
-   "name": "Điểm sạc xe máy điện - Cafe Trạm sạc xe máy điện 24H",
-   "brand": null,
-   "lat": 10.85196,
-   "lng": 106.66515,
-   "address": "727 Thống Nhất, Phường13, Quận Gò Vấp, TP. Hồ Chí Minh",
-   "province": "TP. Hồ Chí Minh",
-   "phone": "0981423836",
-   "hours": "Mở cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": "10k đồng/lần",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-cafe-tram-sac-xe-may-dien-24h/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-ca-phe-vong-4",
    "source": "sacdien.net",
    "name": "Điểm sạc xe máy điện - Coffee Võng Sạc xe điện 24/24",
@@ -11022,7 +10727,7 @@
    "address": "672 Trần Hưng Đạo, Phường 2, Quận 5, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -11337,7 +11042,7 @@
    "address": "2 Vũ Thành Năm, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà Nẵng",
    "province": "TP. Đà Nẵng",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -11591,7 +11296,7 @@
    "address": "268 Đường 30/4, Phường Hoà Cường Bắc, Quận Hải Châu, TP. Đà Nẵng",
    "province": "TP. Đà Nẵng",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -11634,7 +11339,7 @@
    "address": "111 Lê Thanh Nghị, Phường Hòa Cường Bắc, Quận Hải Châu, TP. Đà Nẵng",
    "province": "TP. Đà Nẵng",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -11855,6 +11560,27 @@
    "price": "5k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-evpay-kdt-golden-hill-da-nang/"
+  },
+  {
+   "id": "sacdien:tram-sac-evpay-ngu-hanh-son-da-nang",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EVPAY - Ngũ Hành Sơn Đà Nẵng",
+   "brand": "EVPay",
+   "lat": 15.98898,
+   "lng": 108.23286,
+   "address": "126 Hằng Phương Nữ Sĩ, Phường Hòa Quý, Quận Ngũ Hành Sơn, TP. Đà Nẵng",
+   "province": "TP. Đà Nẵng",
+   "phone": null,
+   "hours": "Mở cửa",
+   "power_kw": "kW - 7kW",
+   "connector": "AC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": "Mobile App",
+   "price": "5k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-evpay-ngu-hanh-son-da-nang/"
   },
   {
    "id": "sacdien:tram-sac-evercharge-hoi-an-tay-da-nang",
@@ -12214,27 +11940,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-quan-cafe-vong/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-raon-danang-beach-hotel",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Raon Danang Beach Hotel",
-   "brand": null,
-   "lat": 16.05107,
-   "lng": 108.24631,
-   "address": "5 An Thượng 32, Phường Bắc Mỹ Phú, Quận Ngũ Hành Sơn, TP. Đà Nẵng",
-   "province": "TP. Đà Nẵng",
-   "phone": "0869 778 789",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-raon-danang-beach-hotel/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-co-charge-hoa-coffee",
    "source": "sacdien.net",
    "name": "Điểm sạc Cỏ CHARGE - Hòa Coffee",
@@ -12265,7 +11970,7 @@
    "address": "51 Thái Phiên, Phường Phước Ninh, Quận Hải Châu, TP. Đà Nẵng",
    "province": "TP. Đà Nẵng",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -12286,7 +11991,7 @@
    "address": "110 Huỳnh Văn Gấm, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà Nẵng",
    "province": "TP. Đà Nẵng",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -12696,69 +12401,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-bayya-hotel-coffee/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-pha-thanh-thoi-rach-gia",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Phà Thạnh Thới Rạch Giá",
-   "brand": null,
-   "lat": 10.0109,
-   "lng": 105.07604,
-   "address": "Bến phà Cao tốc Thạnh Thới - Khu đô thị Tây Bắc, Phường Vĩnh Quang, TP. Rạch Giá, Tỉnh Kiên Giang, Tỉnh An Giang",
-   "province": "Tỉnh An Giang",
-   "phone": null,
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": "30k/lần",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-pha-thanh-thoi-rach-gia/"
-  },
-  {
-   "id": "sacdien:diem-sac-xe-may-dien-seaside-homestay",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Seaside Homestay",
-   "brand": null,
-   "lat": 10.26228,
-   "lng": 103.94058,
-   "address": "Ấp Ông Lang, Xã Cửa Dương, TP. Phú Quốc, Tỉnh Kiên Giang, Tỉnh An Giang",
-   "province": "Tỉnh An Giang",
-   "phone": "0918 680 019",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-seaside-homestay/"
-  },
-  {
-   "id": "sacdien:diem-sac-xe-may-dien-co-share-yen-sao-xu-hon",
-   "source": "sacdien.net",
-   "name": "Điểm sạc Cỏ SHARE - Yến Sào Xứ Hòn",
-   "brand": null,
-   "lat": 10.01769,
-   "lng": 105.06582,
-   "address": "Đường số 8 Khu đô thị Tây Bắc, Phường Vĩnh Quang, TP. Rạch Giá, Tỉnh Kiên Giang, Tỉnh An Giang",
-   "province": "Tỉnh An Giang",
-   "phone": "0846 666 270",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Miễn phí",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-co-share-yen-sao-xu-hon/"
-  },
-  {
    "id": "sacdien:tram-sac-eboost-fraser-titan-bac-ninh",
    "source": "sacdien.net",
    "name": "Trạm sạc EBOOST - Fraser / Titan Bắc Ninh",
@@ -13074,25 +12716,25 @@
    "url": "https://sacdien.net/tram/tram-sac-eboost-ohana-village-qui-nhon/"
   },
   {
-   "id": "sacdien:tram-sac-ev-power-byd-gia-lai-an-phu-gia-lai",
+   "id": "sacdien:tram-sac-ev-power-byd-oway-quy-nhon",
    "source": "sacdien.net",
-   "name": "Trạm sạc EV Power - BYD Gia Lai - An Phú - Gia Lai",
+   "name": "Trạm sạc EV Power - BYD Oway Quy Nhơn",
    "brand": "EV Power",
-   "lat": 13.97593,
-   "lng": 108.0534,
-   "address": "662A Lê Duẩn, Phường An Phú, Tỉnh Gia Lai, TP. Pleiku, Phường Thắng Lợi",
+   "lat": 13.77142,
+   "lng": 109.18794,
+   "address": "Tổ 09 Khu vực 8, Phường Nhơn Phú, TP. Quy Nhơn, Tỉnh Bình Định, Tỉnh Gia Lai",
    "province": "Tỉnh Gia Lai",
-   "phone": "0903567888",
+   "phone": "0338886444",
    "hours": "Mở cửa",
-   "power_kw": "120, 60kW - 7kW",
-   "connector": "Fast DC, DC, AC",
+   "power_kw": "60kW",
+   "connector": "DC",
    "vehicle_types": [
     "Xe hơi điện"
    ],
    "payment": null,
    "price": "7k đồng/kWh",
-   "last_updated": "2026-02-14",
-   "url": "https://sacdien.net/tram/tram-sac-ev-power-byd-gia-lai-an-phu-gia-lai/"
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-ev-power-byd-oway-quy-nhon/"
   },
   {
    "id": "sacdien:tram-sac-solarev-taxi-lets-go-binh-dinh",
@@ -13200,27 +12842,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-cafe-hoang-chuong/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-khach-san-anh-tu",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Khách Sạn Anh Tú",
-   "brand": null,
-   "lat": 14.00069,
-   "lng": 107.99229,
-   "address": "58 Vạn Kiếp, Phường Thống Nhất, TP. Pleiku, Tỉnh Gia Lai",
-   "province": "Tỉnh Gia Lai",
-   "phone": "0989 081 678",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-khach-san-anh-tu/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-moc-coffee",
    "source": "sacdien.net",
    "name": "Điểm sạc - Mộc Coffee",
@@ -13240,27 +12861,6 @@
    "price": null,
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-moc-coffee/"
-  },
-  {
-   "id": "sacdien:diem-sac-xe-may-dien-nha-nghi-happy-quy-nhon",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Nhà Nghỉ Happy Quy Nhơn",
-   "brand": null,
-   "lat": 13.79273,
-   "lng": 109.21116,
-   "address": "309 Lê Thanh Nghị, Phường Đống Đa, TP. Qui Nhơn, Tỉnh Bình Định, TP. Quy Nhơn, Tỉnh Gia Lai",
-   "province": "Tỉnh Gia Lai",
-   "phone": "0905 615 589",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-nha-nghi-happy-quy-nhon/"
   },
   {
    "id": "sacdien:diem-sac-xe-may-dien-note-coffee",
@@ -13482,7 +13082,7 @@
    "address": "475 Trần Phú, Xã Thạch Trung, TP. Hà Tĩnh, Tỉnh Hà Tĩnh",
    "province": "Tỉnh Hà Tĩnh",
    "phone": "0833137678",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "kW - 7kW",
    "connector": "AC",
    "vehicle_types": [
@@ -13534,27 +13134,6 @@
    "price": null,
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-khach-san-thanh-binh-2/"
-  },
-  {
-   "id": "sacdien:diem-sac-xe-may-dien-khach-san-thanh-phat",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Khách Sạn Thành Phát",
-   "brand": null,
-   "lat": 18.02904,
-   "lng": 106.39708,
-   "address": "3 Phan Chu Trinh - Tổ dân phố Liên Giang, Phường Kỳ Long, Thị xã Kỳ Anh, Tỉnh Hà Tĩnh",
-   "province": "Tỉnh Hà Tĩnh",
-   "phone": "0239 3715 999",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-khach-san-thanh-phat/"
   },
   {
    "id": "sacdien:diem-sac-xe-may-dien-nha-hang-bao-ngoc",
@@ -13808,6 +13387,27 @@
    "price": "7k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-evg-xang-dau-cong-vu-hung-yen/"
+  },
+  {
+   "id": "sacdien:tram-sac-evpay-els-performance-golf-academy-epga",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EVPAY - Els Performance Golf Academy (EPGA)",
+   "brand": "EVPay",
+   "lat": 20.95371,
+   "lng": 105.93794,
+   "address": "Số A02 Phố Trúc Khu đô thị EcoPark Văn Giang, Xã Xuân Quan, Huyện Văn Giang, Tỉnh Hưng Yên",
+   "province": "Tỉnh Hưng Yên",
+   "phone": null,
+   "hours": "Mở cửa",
+   "power_kw": "30kW",
+   "connector": "DC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "6k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-evpay-els-performance-golf-academy-epga/"
   },
   {
    "id": "sacdien:tram-sac-evpay-lamdmark-onsen-ecopark-hung-yen",
@@ -14356,27 +13956,6 @@
    "url": "https://sacdien.net/tram/tram-sac-xe-dien-rabbit-evc-tram-dung-nghi-phia-dong-cao-toc-cam-lam-vinh-hao/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-cr-hotel",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - CR Hotel",
-   "brand": null,
-   "lat": 12.234953,
-   "lng": 109.195362,
-   "address": "132/9 Hùng Vương, Phường Lộc Thọ, TP. Nha Trang, Tỉnh Khánh Hòa",
-   "province": "Tỉnh Khánh Hòa",
-   "phone": "0258 3521 515",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-cr-hotel/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-ca-phe-hoang-tuan",
    "source": "sacdien.net",
    "name": "Điểm sạc - Cà Phê Hoàng Tuấn",
@@ -14713,27 +14292,6 @@
    "url": "https://sacdien.net/tram/tram-sac-eboost-chavi-beach-coffee-homestay/"
   },
   {
-   "id": "sacdien:tram-sac-eboost-garage-tuyen-phat",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - Garage Tuyền Phát",
-   "brand": "EBOOST",
-   "lat": 11.70592,
-   "lng": 108.34912,
-   "address": "1161 Quốc lộ 20, Thị trấn Liên Nghĩa, Huyện Đức Trọng, Tỉnh Lâm Đồng",
-   "province": "Tỉnh Lâm Đồng",
-   "phone": "0937053878",
-   "hours": "Mở cửa",
-   "power_kw": "kW - 7kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-garage-tuyen-phat/"
-  },
-  {
    "id": "sacdien:tram-sac-xe-dien-eboost-go-da-lat",
    "source": "sacdien.net",
    "name": "Trạm sạc EBOOST - Go! Đà Lạt",
@@ -14860,27 +14418,6 @@
    "url": "https://sacdien.net/tram/tram-sac-eboost-rua-xe-hiep-phat-da-huoai/"
   },
   {
-   "id": "sacdien:tram-sac-eboost-starlight-villa-beach-resort-spa",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - Starlight Villa - Beach Resort & Spa",
-   "brand": "EBOOST",
-   "lat": 10.73076,
-   "lng": 108.00671,
-   "address": "Đường DT719 - Tân Thành, Huyện Hàm Thuận Nam, Tỉnh Bình Thuận, Tỉnh Lâm Đồng",
-   "province": "Tỉnh Lâm Đồng",
-   "phone": "0903343646",
-   "hours": "Mở cửa",
-   "power_kw": "kW - 7kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-starlight-villa-beach-resort-spa/"
-  },
-  {
    "id": "sacdien:tram-sac-eboost-wocal-retreat-ke-ga-tan-thanh-lam-dong",
    "source": "sacdien.net",
    "name": "Trạm sạc EBOOST - Wocal Retreat Kê Gà - Tân Thành - Lâm Đồng",
@@ -14942,27 +14479,6 @@
    "price": "8.8k EVP/kWh",
    "last_updated": "2025-12-14",
    "url": "https://sacdien.net/tram/tram-sac-esky-hoang-long-tropical-farmstay-ham-thanh-lam-dong/"
-  },
-  {
-   "id": "sacdien:tram-sac-esky-khach-san-dalat-palace-xuan-huong-da-lat-lam-dong",
-   "source": "sacdien.net",
-   "name": "Trạm sạc ESKY - Khách sạn Dalat Palace - Xuân Hương - Đà Lạt - Lâm Đồng",
-   "brand": null,
-   "lat": 11.93764,
-   "lng": 108.44038,
-   "address": "02 Trần Phú, Phường Xuân Hương - Đà Lạt, Tỉnh Lâm Đồng, TP. Đà Lạt, Phường 3",
-   "province": "Tỉnh Lâm Đồng",
-   "phone": "02633825444",
-   "hours": "Mở cửa",
-   "power_kw": "120, 60kW - 22kW",
-   "connector": "Fast DC, DC, AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "8.8k EVP/kWh",
-   "last_updated": "2025-12-23",
-   "url": "https://sacdien.net/tram/tram-sac-esky-khach-san-dalat-palace-xuan-huong-da-lat-lam-dong/"
   },
   {
    "id": "sacdien:tram-sac-esky-khach-san-hoang-long-phu-thuy-lam-dong",
@@ -16351,27 +15867,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-nha-nghi-khanh-hoa/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-nha-nghi-quynh-hoa",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Nhà Nghỉ Quỳnh Hoa",
-   "brand": null,
-   "lat": 11.98258,
-   "lng": 107.59263,
-   "address": "Quốc lộ 14, Xã Nhân Cơ, Huyện Đắk R'Lấp, Tỉnh Đắk Nông, Tỉnh Lâm Đồng",
-   "province": "Tỉnh Lâm Đồng",
-   "phone": "0397 697 608",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-nha-nghi-quynh-hoa/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-old-blao-book-store",
    "source": "sacdien.net",
    "name": "Điểm sạc - Old B’lao Book Store",
@@ -16561,27 +16056,6 @@
    "url": "https://sacdien.net/tram/diem-sac-co-charge-ladowash-bao-loc-lam-dong/"
   },
   {
-   "id": "sacdien:tram-sac-dien-co-charge-net-co",
-   "source": "sacdien.net",
-   "name": "Điểm sạc Cỏ CHARGE - NET Cỏ",
-   "brand": "Co-Charge",
-   "lat": 11.73459,
-   "lng": 108.37156,
-   "address": "56 Phạm Ngọc Thạch, Thị trấn Liên Nghĩa, Huyện Đức Trọng, Tỉnh Lâm Đồng",
-   "province": "Tỉnh Lâm Đồng",
-   "phone": null,
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Miễn phí",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-dien-co-charge-net-co/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-co-charge-quan-com-hang-nga",
    "source": "sacdien.net",
    "name": "Điểm sạc Cỏ CHARGE - Quán Cơm Hằng Nga",
@@ -16603,27 +16077,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-co-charge-quan-com-hang-nga/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-co-share-dien-nuoc-phi-long",
-   "source": "sacdien.net",
-   "name": "Điểm sạc Cỏ SHARE - Điện Nước Phi Long",
-   "brand": null,
-   "lat": 10.86479,
-   "lng": 107.92117,
-   "address": "Quốc lộ 1A, Xã Hàm Minh, Huyện Hàm Thuận Nam, Tỉnh Bình Thuận, Tỉnh Lâm Đồng",
-   "province": "Tỉnh Lâm Đồng",
-   "phone": "0979 574 006",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Miễn phí",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-co-share-dien-nuoc-phi-long/"
-  },
-  {
    "id": "sacdien:tram-sac-bitcharge-lang-son",
    "source": "sacdien.net",
    "name": "Trạm sạc BITCharge - Khách sạn Hoa Sim - Lạng Sơn",
@@ -16643,6 +16096,27 @@
    "price": "7k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-bitcharge-lang-son/"
+  },
+  {
+   "id": "sacdien:tram-sac-evg-ben-bac-tam-thanh-lang-son",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EVG - Bến Bắc - Tam Thanh - Lạng Sơn",
+   "brand": "EVG",
+   "lat": 21.84817,
+   "lng": 106.74863,
+   "address": "216 Bến Bắc, Phường Tam Thanh, TP. Lạng Sơn, Tỉnh Lạng Sơn",
+   "province": "Tỉnh Lạng Sơn",
+   "phone": "0938626666",
+   "hours": "Mở cửa",
+   "power_kw": "kW - 22kW",
+   "connector": "AC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "7k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-evg-ben-bac-tam-thanh-lang-son/"
   },
   {
    "id": "sacdien:tram-sac-bitcharge-gara-o-to-hoa-cuong-quy-hop",
@@ -17074,7 +16548,7 @@
    "address": "Đường Hùng Lý, Xã Chính Lý, Huyện Lý Nhân, Tỉnh Hà Nam, Tỉnh Ninh Bình",
    "province": "Tỉnh Ninh Bình",
    "phone": "0349344344",
-   "hours": "Đóng cửa",
+   "hours": "Mở cửa",
    "power_kw": "30kW - 7kW",
    "connector": "AC, DC",
    "vehicle_types": [
@@ -17273,6 +16747,27 @@
    "price": "6.5k đồng/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-evpay-hyundai-phuc-yen/"
+  },
+  {
+   "id": "sacdien:tram-sac-evpay-hyundai-vinh-yen",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EVPAY - Hyundai Vĩnh Yên",
+   "brand": "EVPay",
+   "lat": 21.29628,
+   "lng": 105.63084,
+   "address": "Tổ Mậu Thông, Phường Khai Quang, TP. Vĩnh Yên, Tỉnh Vĩnh Phúc, Tỉnh Phú Thọ",
+   "province": "Tỉnh Phú Thọ",
+   "phone": "0913541969",
+   "hours": "Mở cửa",
+   "power_kw": "60kW",
+   "connector": "DC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "6.5k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-evpay-hyundai-vinh-yen/"
   },
   {
    "id": "sacdien:tram-sac-evercharge-yen-lac-vinh-phuc",
@@ -17830,7 +17325,7 @@
    "address": "261 Nguyễn Văn Cừ, Phường Mạo Khê, Thị xã Đông Triều, Tỉnh Quảng Ninh",
    "province": "Tỉnh Quảng Ninh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": "30kW",
    "connector": "DC",
    "vehicle_types": [
@@ -17861,27 +17356,6 @@
    "price": "8k đồng/kWh",
    "last_updated": "2025-12-21",
    "url": "https://sacdien.net/tram/tram-sac-charge-sam-plaza-dong-hoi-quang-tri/"
-  },
-  {
-   "id": "sacdien:tram-sac-ev-power-omoda-jaecoo-quang-binh-dong-hoi-quang-tri",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EV Power - Omoda & Jaecoo Quảng Bình - Đồng Hới - Quảng Trị",
-   "brand": "EV Power",
-   "lat": 17.44514,
-   "lng": 106.63217,
-   "address": "Quốc lộ 1A, Phường Đồng Hới, Tỉnh Quảng Trị, TP. Đồng Hới, Phường Phú Hải",
-   "province": "Tỉnh Quảng Trị",
-   "phone": "0943265789",
-   "hours": "Mở cửa",
-   "power_kw": "60kW",
-   "connector": "DC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": "Mobile App",
-   "price": "7k đồng/kWh",
-   "last_updated": "2025-12-30",
-   "url": "https://sacdien.net/tram/tram-sac-ev-power-omoda-jaecoo-quang-binh-dong-hoi-quang-tri/"
   },
   {
    "id": "sacdien:tram-sac-ev-power-quang-binh",
@@ -18197,6 +17671,27 @@
    "price": "7k đồng/kWh",
    "last_updated": "2025-12-14",
    "url": "https://sacdien.net/tram/tram-sac-bitcharge-toa-nha-hung-hien-68-hh68-hac-thanh-thanh-hoa/"
+  },
+  {
+   "id": "sacdien:tram-sac-bitcharge-bim-son-thanh-hoa",
+   "source": "sacdien.net",
+   "name": "Trạm sạc BITcharge- Bỉm Sơn Thanh Hóa",
+   "brand": "BitCharge",
+   "lat": 20.10609,
+   "lng": 105.85411,
+   "address": "101 Bà Triệu, Phường Bắc Sơn, Thị xã Bỉm Sơn, Tỉnh Thanh Hóa",
+   "province": "Tỉnh Thanh Hóa",
+   "phone": "0927263888",
+   "hours": "Mở cửa",
+   "power_kw": "40kW",
+   "connector": "DC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "7k đồng/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-bitcharge-bim-son-thanh-hoa/"
   },
   {
    "id": "sacdien:tram-sac-ev-one-muong-thanh-grand-thanh-hoa",
@@ -18598,27 +18093,6 @@
    "url": "https://sacdien.net/tram/tram-sac-xe-hoi-khach-san-phoenix-ha-giang-2/"
   },
   {
-   "id": "sacdien:tram-sac-eboost-kdl-chavi-garden",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - KDL Chavi Garden",
-   "brand": "EBOOST",
-   "lat": 10.74488,
-   "lng": 106.36286,
-   "address": "999 Quốc lộ N2 - Ấp 4, Xã Thạnh Lợi, Huyện Bến Lức, Tỉnh Long An, Tỉnh Tây Ninh",
-   "province": "Tỉnh Tây Ninh",
-   "phone": "0903611211",
-   "hours": "Mở cửa",
-   "power_kw": "kW - 7kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-kdl-chavi-garden/"
-  },
-  {
    "id": "sacdien:tram-sac-eboost-mermaid-homestay-tay-ninh",
    "source": "sacdien.net",
    "name": "Trạm sạc EBOOST - Mermaid Homestay - Tây Ninh",
@@ -18911,6 +18385,27 @@
    "price": "7.9k đ/kWh",
    "last_updated": "2025-09-23",
    "url": "https://sacdien.net/tram/tram-sac-eboost-khach-san-ruby-vinh-long/"
+  },
+  {
+   "id": "sacdien:tram-sac-eboost-sieu-thi-minka-vinh-long",
+   "source": "sacdien.net",
+   "name": "Trạm sạc EBOOST - Siêu thị MinKa - Vĩnh Long",
+   "brand": "EBOOST",
+   "lat": 10.10342,
+   "lng": 105.75157,
+   "address": "Đường 3 Tháng 2 - Khóm Tân Thuận, Thị trấn Tân Quới, Huyện Bình Tân, Tỉnh Vĩnh Long",
+   "province": "Tỉnh Vĩnh Long",
+   "phone": null,
+   "hours": "Đóng cửa",
+   "power_kw": "kW - 7kW",
+   "connector": "AC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": null,
+   "price": "7.9k đ/kWh",
+   "last_updated": "2025-09-23",
+   "url": "https://sacdien.net/tram/tram-sac-eboost-sieu-thi-minka-vinh-long/"
   },
   {
    "id": "sacdien:tram-sac-xe-dien-ev-one-khu-du-lich-huynh-kha-tra-vinh",
@@ -19460,6 +18955,27 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-tram-dung-chan-buon-trinh/"
   },
   {
+   "id": "sacdien:tram-sac-byd-binh-phuoc-showroom",
+   "source": "sacdien.net",
+   "name": "Trạm sạc BYD Bình Phước Showroom",
+   "brand": null,
+   "lat": 11.47103,
+   "lng": 106.88205,
+   "address": "KCN Bắc Đồng Phú - Đường DT741, Thị trấn Tân Phú, Huyện Đồng Phú, Tỉnh Bình Phước, Tỉnh Đồng Nai",
+   "province": "Tỉnh Đồng Nai",
+   "phone": null,
+   "hours": "Đóng cửa",
+   "power_kw": "60kW",
+   "connector": "DC",
+   "vehicle_types": [
+    "Xe hơi điện"
+   ],
+   "payment": "Mobile App",
+   "price": "4k đồng/kWh",
+   "last_updated": "2025-09-26",
+   "url": "https://sacdien.net/tram/tram-sac-byd-binh-phuoc-showroom/"
+  },
+  {
    "id": "sacdien:tram-sac-charge-nha-may-elite-long-thanh",
    "source": "sacdien.net",
    "name": "Trạm sạc CHARGE+ - Nhà máy Elite Long Thành",
@@ -19553,7 +19069,7 @@
    "address": "Số 1 Hẻm 520 Thống Nhất, TP. Biên Hòa, Tỉnh Đồng Nai, Phường Tam Hòa",
    "province": "Tỉnh Đồng Nai",
    "phone": "0937005657",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -20195,27 +19711,6 @@
    "url": "https://sacdien.net/tram/tram-sac-xe-dien-dong-nai-ford-bien-hoa/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-ba-dat-eco-homestay",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Bà Đất Eco Homestay",
-   "brand": null,
-   "lat": 11.111504,
-   "lng": 106.972358,
-   "address": "200 Đường nội khu - Ấp 2, Xã Hiếu Liêm, Huyện Vĩnh Cửu, Tỉnh Đồng Nai",
-   "province": "Tỉnh Đồng Nai",
-   "phone": "0919 527 700",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-ba-dat-eco-homestay/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-cafe-hu-tieu-nam-vang-ngoc",
    "source": "sacdien.net",
    "name": "Điểm sạc - Cafe - Hủ Tiếu Nam Vang Ngọc",
@@ -20540,7 +20035,7 @@
    "address": "45 Nguyễn Trãi, Phường Xuân Hoà, TP. Long Khánh, Tỉnh Đồng Nai",
    "province": "Tỉnh Đồng Nai",
    "phone": "0251 3646 090",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -20804,27 +20299,6 @@
    "url": "https://sacdien.net/tram/tram-sac-eboost-le-hoang-2/"
   },
   {
-   "id": "sacdien:tram-sac-eboost-the-mango-trail-farmstay",
-   "source": "sacdien.net",
-   "name": "Trạm sạc EBOOST - The Mango Trail Farmstay",
-   "brand": "EBOOST",
-   "lat": 10.42406,
-   "lng": 105.69125,
-   "address": "Ấp Mỹ Thới - Mỹ Xương, TP. Cao Lãnh, Tỉnh Đồng Tháp",
-   "province": "Tỉnh Đồng Tháp",
-   "phone": "0939763881",
-   "hours": "Mở cửa",
-   "power_kw": "kW - 7kW",
-   "connector": "AC",
-   "vehicle_types": [
-    "Xe hơi điện"
-   ],
-   "payment": null,
-   "price": "7.9k đ/kWh",
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/tram-sac-eboost-the-mango-trail-farmstay/"
-  },
-  {
    "id": "sacdien:tram-sac-xe-dien-ev-one-khach-san-cao-lanh",
    "source": "sacdien.net",
    "name": "Trạm sạc EV ONE - Khách Sạn Cao Lãnh",
@@ -21035,27 +20509,6 @@
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-ca-phe-vong-cherry/"
   },
   {
-   "id": "sacdien:diem-sac-xe-may-dien-khach-san-an-nhien-my-tho",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Khách Sạn An Nhiên Mỹ Tho",
-   "brand": null,
-   "lat": 10.37134,
-   "lng": 106.34446,
-   "address": "32 Hồ Văn Nhánh, Phường 10, TP. Mỹ Tho, Tỉnh Tiền Giang, Tỉnh Đồng Tháp",
-   "province": "Tỉnh Đồng Tháp",
-   "phone": "0273 3868 558",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-khach-san-an-nhien-my-tho/"
-  },
-  {
    "id": "sacdien:diem-sac-xe-may-dien-lau-mam-mien-tay-ut-cuong",
    "source": "sacdien.net",
    "name": "Điểm sạc - Lẩu Mắm Miền Tây Út Cường",
@@ -21075,27 +20528,6 @@
    "price": null,
    "last_updated": "2025-12-11",
    "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-lau-mam-mien-tay-ut-cuong/"
-  },
-  {
-   "id": "sacdien:diem-sac-xe-may-dien-maison-en-bambou-phong-le-vent-nha-tre",
-   "source": "sacdien.net",
-   "name": "Điểm sạc - Maison en Bambou Phong - Le Vent (Nhà Tre)",
-   "brand": null,
-   "lat": 10.32731,
-   "lng": 105.74041,
-   "address": "Kế số 204 A - Khóm Tân Hiệp, Phường Tân Quy Đông, TP. Sa Đéc, Tỉnh Đồng Tháp",
-   "province": "Tỉnh Đồng Tháp",
-   "phone": "0939 298 388",
-   "hours": "Đóng cửa",
-   "power_kw": null,
-   "connector": null,
-   "vehicle_types": [
-    "Xe máy điện"
-   ],
-   "payment": "Tiền mặt",
-   "price": null,
-   "last_updated": "2025-09-23",
-   "url": "https://sacdien.net/tram/diem-sac-xe-may-dien-maison-en-bambou-phong-le-vent-nha-tre/"
   },
   {
    "id": "sacdien:diem-sac-xe-may-dien-quan-cafe",
