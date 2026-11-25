@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T04:17:02+00:00",
+ "generated_at": "2026-11-25T03:02:05+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -5319,7 +5319,7 @@
    "address": "397 Nguyễn Tri Phương, Phường 5, Quận 10, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -5340,7 +5340,7 @@
    "address": "151/2B Nguyễn Ảnh Thủ, Xã Trung Chánh, Huyện Hóc Môn, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
@@ -5361,7 +5361,7 @@
    "address": "93 Phan Xích Long, Phường 2, Quận Phú Nhuận, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": null,
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
