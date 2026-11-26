@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T03:02:05+00:00",
+ "generated_at": "2026-11-26T02:08:06+00:00",
  "source_counts": {
   "Đại lý Audi": 3,
   "Đại lý Geely": 2,
@@ -10939,7 +10939,7 @@
    "address": "28 Chiến Lược, Phường Bình Trị Đông, Quận Bình Tân, TP. Hồ Chí Minh",
    "province": "TP. Hồ Chí Minh",
    "phone": "0769 331 194",
-   "hours": "Mở cửa",
+   "hours": "Đóng cửa",
    "power_kw": null,
    "connector": null,
    "vehicle_types": [
